@@ -1,0 +1,20 @@
+$kind: collection
+description: Sample requests for the swift-screening API. Start the server with `uv run swift-screening serve` (or `docker compose up`), import this collection plus the environment file, then run it in order. All watchlist names used here are FICTIONAL fixtures from fixtures/lists.
+variables:
+  screeningId: ""
+scripts:
+  - type: http:afterResponse
+    code: |-
+      pm.test('security headers present', () => {
+        pm.expect(pm.response.headers.get('X-Content-Type-Options')).to.eql('nosniff');
+        pm.expect(pm.response.headers.get('Cache-Control')).to.eql('no-store');
+      });
+    language: text/javascript
+auth:
+  - id: cdbc5e7c-a23b-4c2a-993e-2b6420508a20
+    type: apikey
+    name: apikey auth
+    credentials:
+      key: X-API-Key
+      value: "{{apiKey}}"
+      in: header

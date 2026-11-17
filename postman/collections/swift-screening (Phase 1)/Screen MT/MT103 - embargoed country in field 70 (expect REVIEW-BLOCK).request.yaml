@@ -1,0 +1,49 @@
+$kind: http-request
+name: MT103 - embargoed country in field 70 (expect REVIEW/BLOCK)
+url: "{{baseUrl}}/v1/screen/mt"
+method: POST
+headers:
+  Content-Type: text/plain
+body:
+  type: text
+  content: "{1:F01BANKGB2LAXXX0000000000}{2:I103DEUTDEFFXXXXN}{3:{108:SYNTH}{121:00000000-0000-0000-0000-000000000010}}{4:\r
+
+    :20:REF985443\r
+
+    :23B:CRED\r
+
+    :32A:261115EUR12500,00\r
+
+    :50F:/DE89370400440532013000\r
+
+    1/Gormerqua Wilni\r
+
+    2/34 Station Street\r
+
+    3/US/NEW YORK\r
+
+    :52A:BANKGB2LXXX\r
+
+    :57A:DEUTDEFFXXX\r
+
+    :59F:/DE89370400440532013000\r
+
+    1/Denmonmon Textiles Ltd\r
+
+    2/59 Mill Lane\r
+
+    3/SG/SINGAPORE\r
+
+    :70:GOODS SHIPPED TO TEHRAN IRAN\r
+
+    :71A:SHA\r
+
+    -}{5:{CHK:123456789ABC}}"
+scripts:
+  - type: afterResponse
+    code: |-
+      const r = pm.response.json();
+      pm.test('200', () => pm.response.to.have.status(200));
+      pm.test('not PASS', () => pm.expect(r.decision).to.be.oneOf(['REVIEW', 'BLOCK']));
+    language: text/javascript
+order: 4000

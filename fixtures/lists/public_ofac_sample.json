@@ -1,0 +1,5294 @@
+{
+ "_source": "OFAC Specially Designated Nationals (SDN) list, https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.XML, published 2026-11-13",
+ "_licence": "US Government work, public domain (17 U.S.C. 105). Real list entries: use only for testing screening; do not treat as current - designations change.",
+ "_sampling": "random.Random(2026); 200 entries (45% individuals, 45% organisations, 10% vessels)",
+ "list_id": "PUBLIC_OFAC_SAMPLE",
+ "list_type": "sanctions",
+ "published_at": "2026-11-13T00:00:00+00:00",
+ "entries": [
+  {
+   "entry_id": "424",
+   "entry_type": "organisation",
+   "name": "BOUTIQUE LA MAISON",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Panama"
+   ],
+   "programs": [
+    "CUBA"
+   ]
+  },
+  {
+   "entry_id": "6703",
+   "entry_type": "individual",
+   "name": "Jose de Jesus AMEZCUA CONTRERAS",
+   "aliases": [],
+   "weak_aliases": [
+    "AMESCUA, Chuey",
+    "AMEZCUA, Chuy",
+    "HERNANDEZ, Adan"
+   ],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "AECJ650731HJCMNS00",
+     "country": "Mexico"
+    }
+   ],
+   "dates_of_birth": [
+    "31 Jul 1965"
+   ],
+   "nationalities": [
+    "Mexico"
+   ],
+   "countries": [
+    "Mexico"
+   ],
+   "programs": [
+    "SDNTK"
+   ]
+  },
+  {
+   "entry_id": "6725",
+   "entry_type": "organisation",
+   "name": "ISLAMIC MOVEMENT OF UZBEKISTAN",
+   "aliases": [],
+   "weak_aliases": [
+    "IMU"
+   ],
+   "identifiers": [],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [],
+   "programs": [
+    "FTO",
+    "SDGT"
+   ]
+  },
+  {
+   "entry_id": "7193",
+   "entry_type": "individual",
+   "name": "Zigor ORBE SEVILLANO",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "45.622.851",
+     "country": "Spain"
+    }
+   ],
+   "dates_of_birth": [
+    "22 Sep 1975"
+   ],
+   "nationalities": [],
+   "countries": [],
+   "programs": [
+    "SDGT"
+   ]
+  },
+  {
+   "entry_id": "7324",
+   "entry_type": "organisation",
+   "name": "MOROCCAN ISLAMIC COMBATANT GROUP",
+   "aliases": [
+    "GICM",
+    "GROUPE ISLAMIQUE COMBATTANT MAROCAIN"
+   ],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [],
+   "programs": [
+    "SDGT"
+   ]
+  },
+  {
+   "entry_id": "7709",
+   "entry_type": "individual",
+   "name": "Milojica KOS",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [
+    "01 Apr 1963"
+   ],
+   "nationalities": [],
+   "countries": [],
+   "programs": [
+    "BALKANS"
+   ]
+  },
+  {
+   "entry_id": "8244",
+   "entry_type": "organisation",
+   "name": "AERO CONTINENTE S.A",
+   "aliases": [
+    "AEROCONTINENTE S.A.",
+    "AERO CONTINENT S.A.",
+    "NUEVO CONTINENTE S.A.",
+    "NUEVOCONTINENTE S.A.",
+    "WWW.AEROCONTINENTE.COM",
+    "WWW.AEROCONTINENTE.COM.PE",
+    "WWW.NUEVOCONTINENTE.COM.PE"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "8300720300",
+     "country": "Colombia"
+    },
+    {
+     "type": "OTHER",
+     "value": "55-2197267",
+     "country": null
+    },
+    {
+     "type": "OTHER",
+     "value": "F01000003035",
+     "country": "United States"
+    },
+    {
+     "type": "OTHER",
+     "value": "20108363101",
+     "country": "Peru"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Argentina",
+    "Chile",
+    "Colombia",
+    "Dominican Republic",
+    "Ecuador",
+    "Mexico",
+    "Peru",
+    "United States",
+    "Venezuela"
+   ],
+   "programs": [
+    "SDNTK"
+   ]
+  },
+  {
+   "entry_id": "10043",
+   "entry_type": "individual",
+   "name": "Hamzi Ahmad BARAKAT",
+   "aliases": [
+    "Hamza Ahmad BARAKAT",
+    "Hamze Ahmad BARAKAT",
+    "Hamzi Muhammad BARAKAT"
+   ],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [
+    "10 Jan 1963"
+   ],
+   "nationalities": [],
+   "countries": [],
+   "programs": [
+    "SDGT"
+   ]
+  },
+  {
+   "entry_id": "10377",
+   "entry_type": "individual",
+   "name": "Hatem Hamdan AL-AZAWI",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [
+    "circa 1937"
+   ],
+   "nationalities": [],
+   "countries": [
+    "Iraq"
+   ],
+   "programs": [
+    "IRAQ2"
+   ]
+  },
+  {
+   "entry_id": "10658",
+   "entry_type": "organisation",
+   "name": "AL-ZAWRA TELEVISION STATION",
+   "aliases": [
+    "AL-ZAWRAA TV",
+    "EL-ZAWRA SATELLITE STATION",
+    "ZORAH CHANNEL",
+    "AL ZOURA TV STATION",
+    "AL-ZAWARA SATELLITE TELEVISION STATION",
+    "ZAWRAH TV STATION",
+    "AL ZAOURA NETWORK",
+    "ALZAWRAA TV",
+    "AL ZAWRAH TELEVISION"
+   ],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Syria"
+   ],
+   "programs": [
+    "IRAQ3"
+   ]
+  },
+  {
+   "entry_id": "10857",
+   "entry_type": "individual",
+   "name": "Mehrdada Akhlaghi KETABACHI",
+   "aliases": [
+    "Merhdada Akhlaghi KETABCHI"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "PASSPORT",
+     "value": "A0030940",
+     "country": "Iran"
+    }
+   ],
+   "dates_of_birth": [
+    "10 Sep 1958"
+   ],
+   "nationalities": [
+    "Iran"
+   ],
+   "countries": [
+    "Iran"
+   ],
+   "programs": [
+    "NPWMD",
+    "IFSR",
+    "IRAN-CON-ARMS-EO"
+   ]
+  },
+  {
+   "entry_id": "10898",
+   "entry_type": "individual",
+   "name": "Haji Asad Khan Zarkari MOHAMMADHASNI",
+   "aliases": [
+    "Haji Asad Khan MOHAMMADHASNI",
+    "Asad Khan ZARKARI",
+    "Asad Khan MUHAMMADHASNI",
+    "Asad Khan MOHMMADHASNI",
+    "Asad Khan MOHADMMADHASNI",
+    "Asad KHAN",
+    "Haji Asad KHAN",
+    "Mohammed KHAN"
+   ],
+   "weak_aliases": [
+    "ASAD, Haji",
+    "HAJI ABDULLAH"
+   ],
+   "identifiers": [
+    {
+     "type": "PASSPORT",
+     "value": "OR1126692",
+     "country": "Afghanistan"
+    }
+   ],
+   "dates_of_birth": [
+    "01 Jan 1955"
+   ],
+   "nationalities": [],
+   "countries": [
+    "Afghanistan",
+    "Pakistan",
+    "United Arab Emirates"
+   ],
+   "programs": [
+    "SDNTK"
+   ]
+  },
+  {
+   "entry_id": "11292",
+   "entry_type": "individual",
+   "name": "Hsueh Lung WEI",
+   "aliases": [
+    "Cheewinprapasri SOONTHRON",
+    "Chiwinpraphasi SUNTHORN",
+    "Cheewinprapasi APHICHART",
+    "Aik Hsam HKIM",
+    "Sae Wei HAI HSING"
+   ],
+   "weak_aliases": [
+    "KEUN DONG",
+    "TI JUNG",
+    "KEUN SEU CHANG",
+    "CHAIRMAN KEUN",
+    "WEI HSUEH LUNG"
+   ],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "5570700010951",
+     "country": "Thailand"
+    },
+    {
+     "type": "PASSPORT",
+     "value": "B265235",
+     "country": "Thailand"
+    }
+   ],
+   "dates_of_birth": [
+    "1936"
+   ],
+   "nationalities": [],
+   "countries": [
+    "Burma",
+    "China",
+    "Thailand"
+   ],
+   "programs": [
+    "SDNTK"
+   ]
+  },
+  {
+   "entry_id": "11492",
+   "entry_type": "individual",
+   "name": "Sa'ad Uwayyid 'Ubayd Mu'jil AL-SHAMMARI",
+   "aliases": [
+    "SA'AD AL-SHAMMARI",
+    "ABU HAMMUDI AL-SHAMMARI"
+   ],
+   "weak_aliases": [
+    "ABU KHALAF",
+    "SAAD OWAIED OBAID"
+   ],
+   "identifiers": [],
+   "dates_of_birth": [
+    "03 Jul 1972"
+   ],
+   "nationalities": [],
+   "countries": [
+    "Iraq",
+    "Syria"
+   ],
+   "programs": [
+    "SDGT"
+   ]
+  },
+  {
+   "entry_id": "11622",
+   "entry_type": "organisation",
+   "name": "PETROCHEMICAL COMMERCIAL COMPANY INTERNATIONAL",
+   "aliases": [
+    "PETROCHEMICAL COMMERCIAL COMPANY INTERNATIONAL LTD",
+    "PETROCHEMICAL TRADING COMPANY LIMITED",
+    "PETROCHEMICAL COMMERCIAL COMPANY INTERNATIONAL LIMITED"
+   ],
+   "weak_aliases": [
+    "PCCI"
+   ],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "77283",
+     "country": "Jersey"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Iran",
+    "Jersey",
+    "Turkmenistan",
+    "United Arab Emirates"
+   ],
+   "programs": [
+    "IRAN"
+   ]
+  },
+  {
+   "entry_id": "11631",
+   "entry_type": "organisation",
+   "name": "IRAN INSURANCE COMPANY",
+   "aliases": [
+    "BIMEH IRAN"
+   ],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Bahrain",
+    "Iran",
+    "Oman",
+    "Saudi Arabia",
+    "United Arab Emirates"
+   ],
+   "programs": [
+    "IRAN"
+   ]
+  },
+  {
+   "entry_id": "11918",
+   "entry_type": "individual",
+   "name": "Juan Reyes MEJIA GONZALEZ",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "MEGJ751118HTSJNN01",
+     "country": "Mexico"
+    }
+   ],
+   "dates_of_birth": [
+    "18 Nov 1975"
+   ],
+   "nationalities": [
+    "Mexico"
+   ],
+   "countries": [
+    "Mexico"
+   ],
+   "programs": [
+    "SDNTK"
+   ]
+  },
+  {
+   "entry_id": "11972",
+   "entry_type": "individual",
+   "name": "Ibraima Papa CAMARA",
+   "aliases": [
+    "Ibrahima Papa CAMARA"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "PASSPORT",
+     "value": "051880",
+     "country": "Guinea-Bissau"
+    },
+    {
+     "type": "PASSPORT",
+     "value": "SA0002338",
+     "country": "Guinea-Bissau"
+    },
+    {
+     "type": "NATIONAL_ID",
+     "value": "114466",
+     "country": "Guinea-Bissau"
+    }
+   ],
+   "dates_of_birth": [
+    "11 May 1964"
+   ],
+   "nationalities": [
+    "Guinea-Bissau"
+   ],
+   "countries": [],
+   "programs": [
+    "SDNTK"
+   ]
+  },
+  {
+   "entry_id": "12109",
+   "entry_type": "individual",
+   "name": "Anwar AL-AULAQI",
+   "aliases": [
+    "Anwar AL-AWLAKI",
+    "Anwar AL-AWLAQI",
+    "Anwar Nasser AULAQI",
+    "Anwar Nasser Abdulla AULAQI",
+    "Anwar Nasswer AULAQI"
+   ],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [
+    "21 Apr 1971",
+    "22 Apr 1971"
+   ],
+   "nationalities": [],
+   "countries": [],
+   "programs": [
+    "SDGT"
+   ]
+  },
+  {
+   "entry_id": "12816",
+   "entry_type": "organisation",
+   "name": "YAKUZA",
+   "aliases": [
+    "BORYOKUDAN",
+    "GOKUDO"
+   ],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Japan"
+   ],
+   "programs": [
+    "TCO"
+   ]
+  },
+  {
+   "entry_id": "12946",
+   "entry_type": "individual",
+   "name": "Hassan FIROUZABADI",
+   "aliases": [
+    "Hasan FIRUZABADI",
+    "Hassan FIROOZABADI",
+    "Hassan AQAI-FIRUZABADI"
+   ],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [
+    "03 Feb 1951"
+   ],
+   "nationalities": [],
+   "countries": [],
+   "programs": [
+    "IRAN-HR"
+   ]
+  },
+  {
+   "entry_id": "13147",
+   "entry_type": "organisation",
+   "name": "CREDIT INSTITUTION FOR DEVELOPMENT",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Iran"
+   ],
+   "programs": [
+    "IRAN"
+   ]
+  },
+  {
+   "entry_id": "16419",
+   "entry_type": "organisation",
+   "name": "FAN PARDAZAN",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Iran"
+   ],
+   "programs": [
+    "NPWMD",
+    "IFSR"
+   ]
+  },
+  {
+   "entry_id": "17387",
+   "entry_type": "individual",
+   "name": "Ali Abdullah SALEH",
+   "aliases": [
+    "Ali Abdallah SALIH"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "NATIONAL_ID",
+     "value": "01010744444",
+     "country": "Yemen"
+    },
+    {
+     "type": "PASSPORT",
+     "value": "00016161",
+     "country": "Yemen"
+    }
+   ],
+   "dates_of_birth": [
+    "21 Mar 1945",
+    "21 Mar 1946",
+    "21 Mar 1942",
+    "21 Mar 1947"
+   ],
+   "nationalities": [
+    "Yemen"
+   ],
+   "countries": [],
+   "programs": [
+    "YEMEN"
+   ]
+  },
+  {
+   "entry_id": "18556",
+   "entry_type": "individual",
+   "name": "Bom Su JANG",
+   "aliases": [
+    "Pom Su JANG",
+    "Hyon U JANG"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "836110034",
+     "country": null
+    }
+   ],
+   "dates_of_birth": [
+    "15 Apr 1957",
+    "22 Feb 1958"
+   ],
+   "nationalities": [],
+   "countries": [
+    "Syria"
+   ],
+   "programs": [
+    "NPWMD"
+   ]
+  },
+  {
+   "entry_id": "18956",
+   "entry_type": "organisation",
+   "name": "RUELAS TORRES DRUG TRAFFICKING ORGANIZATION",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Mexico"
+   ],
+   "programs": [
+    "SDNTK"
+   ]
+  },
+  {
+   "entry_id": "19891",
+   "entry_type": "individual",
+   "name": "Nayif Salih Salim AL-QAYSI",
+   "aliases": [
+    "Nayif Salih Salim AL QAYSI",
+    "Naif Saleh Salem AL QAISI",
+    "Nayif AL-GHAYSI"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "PASSPORT",
+     "value": "04796738",
+     "country": "Yemen"
+    }
+   ],
+   "dates_of_birth": [
+    "01 Jan 1983"
+   ],
+   "nationalities": [],
+   "countries": [
+    "Yemen"
+   ],
+   "programs": [
+    "SDGT"
+   ]
+  },
+  {
+   "entry_id": "20256",
+   "entry_type": "organisation",
+   "name": "SMT TECNOLOGIA, C.A.",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "J-40068226-6",
+     "country": "Venezuela"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Venezuela"
+   ],
+   "programs": [
+    "SDNTK"
+   ]
+  },
+  {
+   "entry_id": "20905",
+   "entry_type": "individual",
+   "name": "Jose Efer HIGUITA PERALTA",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "6460433",
+     "country": "Colombia"
+    }
+   ],
+   "dates_of_birth": [
+    "14 May 1959"
+   ],
+   "nationalities": [],
+   "countries": [
+    "Colombia"
+   ],
+   "programs": [
+    "SDNTK"
+   ]
+  },
+  {
+   "entry_id": "21103",
+   "entry_type": "organisation",
+   "name": "LOLA LOLITA 1110, S. DE R.L. DE C.V.",
+   "aliases": [
+    "LOLALOLITA 1110, S. DE R.L. DE C.V."
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "60645 (Jalisco)",
+     "country": "Mexico"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Mexico"
+   ],
+   "programs": [
+    "SDNTK"
+   ]
+  },
+  {
+   "entry_id": "21524",
+   "entry_type": "organisation",
+   "name": "GRUPO SEGTAC, S.A. DE C.V.",
+   "aliases": [
+    "GRUPO SEGTAC INMOBILIARIA",
+    "GRUPO INMOBILIARIO SEGTAC"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "66501",
+     "country": "Mexico"
+    },
+    {
+     "type": "OTHER",
+     "value": "GSE1111188QA",
+     "country": "Mexico"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Mexico"
+   ],
+   "programs": [
+    "SDNTK"
+   ]
+  },
+  {
+   "entry_id": "22613",
+   "entry_type": "organisation",
+   "name": "JINHOU INTERNATIONAL HOLDINGS CO., LTD.",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "China"
+   ],
+   "programs": [
+    "DPRK3"
+   ]
+  },
+  {
+   "entry_id": "23125",
+   "entry_type": "individual",
+   "name": "Wilfrido GONZALEZ PENUELAS",
+   "aliases": [
+    "Wilfredo GONZALEZ PENUELAS"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "GOPW770914HSLNXL03",
+     "country": "Mexico"
+    }
+   ],
+   "dates_of_birth": [
+    "14 Sep 1977"
+   ],
+   "nationalities": [
+    "Mexico"
+   ],
+   "countries": [
+    "Mexico"
+   ],
+   "programs": [
+    "SDNTK"
+   ]
+  },
+  {
+   "entry_id": "23128",
+   "entry_type": "individual",
+   "name": "Elvis Eduardo HIDROBO AMOROSO",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "7659695",
+     "country": "Venezuela"
+    }
+   ],
+   "dates_of_birth": [
+    "04 Aug 1963"
+   ],
+   "nationalities": [],
+   "countries": [
+    "Venezuela"
+   ],
+   "programs": [
+    "VENEZUELA"
+   ]
+  },
+  {
+   "entry_id": "23275",
+   "entry_type": "individual",
+   "name": "Sergey KUSIUK",
+   "aliases": [
+    "Sergej Nikolaevich KUSYUK",
+    "Serhiy KUSYUK",
+    "Sergei KYSYUK"
+   ],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [
+    "01 Dec 1966"
+   ],
+   "nationalities": [
+    "Ukraine",
+    "Russia"
+   ],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "GLOMAG"
+   ]
+  },
+  {
+   "entry_id": "24083",
+   "entry_type": "individual",
+   "name": "Alexey Borisovich MILLER",
+   "aliases": [
+    "Alexei Borisovich MILLER"
+   ],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [
+    "31 Jan 1962"
+   ],
+   "nationalities": [],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024",
+    "UKRAINE-EO13661"
+   ]
+  },
+  {
+   "entry_id": "24470",
+   "entry_type": "individual",
+   "name": "Mahmud Bagheri KAZEMABAD",
+   "aliases": [
+    "Mahmud BAGHERI-KAZEMABAD",
+    "Mahmud Kazemabad BAGHERI",
+    "Mahmoud Bagheri KAZEMABAD",
+    "Mahmoud Bagheri KZEMABAD"
+   ],
+   "weak_aliases": [
+    "BAGHERI, Mahmud",
+    "BAGHERI, Mahmoud"
+   ],
+   "identifiers": [
+    {
+     "type": "NATIONAL_ID",
+     "value": "448947941",
+     "country": "Iran"
+    },
+    {
+     "type": "PASSPORT",
+     "value": "J32377129",
+     "country": "Iran"
+    }
+   ],
+   "dates_of_birth": [
+    "26 Jun 1965"
+   ],
+   "nationalities": [
+    "Iran"
+   ],
+   "countries": [
+    "Iran"
+   ],
+   "programs": [
+    "IFSR",
+    "SDGT",
+    "IRGC"
+   ]
+  },
+  {
+   "entry_id": "24653",
+   "entry_type": "organisation",
+   "name": "EMBEDI",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Israel",
+    "Russia"
+   ],
+   "programs": [
+    "CYBER2"
+   ]
+  },
+  {
+   "entry_id": "24706",
+   "entry_type": "organisation",
+   "name": "MAHAN TRAVEL AND TOURISM SDN BHD",
+   "aliases": [
+    "MAHAN TRAVEL",
+    "MIHAN TRAVEL & TOURISM SDN BHD"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "875233-U",
+     "country": "Malaysia"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Malaysia"
+   ],
+   "programs": [
+    "IFSR",
+    "SDGT"
+   ]
+  },
+  {
+   "entry_id": "24747",
+   "entry_type": "individual",
+   "name": "Houssam KATRANGI",
+   "aliases": [
+    "Houssam Hachem KATRANJI",
+    "Houssam Hashem KATRANKI",
+    "Houssam Hachem EL KATRANGI",
+    "Houssam Hachem EL KATRANJI",
+    "Hussam QATRANJI",
+    "Hussam KATRANGI",
+    "Houssam Hachem KATRANGI"
+   ],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [
+    "27 Nov 1973"
+   ],
+   "nationalities": [
+    "Lebanon"
+   ],
+   "countries": [
+    "Lebanon"
+   ],
+   "programs": [
+    "NPWMD"
+   ]
+  },
+  {
+   "entry_id": "25257",
+   "entry_type": "vessel",
+   "name": "DORITA",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "IMO",
+     "value": "IMO 8605234",
+     "country": null
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [],
+   "programs": [
+    "IRAN",
+    "NPWMD",
+    "IFSR"
+   ]
+  },
+  {
+   "entry_id": "25371",
+   "entry_type": "vessel",
+   "name": "BEHSHAD",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "IMO",
+     "value": "IMO 9167289",
+     "country": null
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [],
+   "programs": [
+    "IRAN",
+    "NPWMD",
+    "IFSR"
+   ]
+  },
+  {
+   "entry_id": "25379",
+   "entry_type": "vessel",
+   "name": "GANJ",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "IMO",
+     "value": "IMO 9305219",
+     "country": null
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [],
+   "programs": [
+    "IRAN",
+    "NPWMD",
+    "IFSR"
+   ]
+  },
+  {
+   "entry_id": "25470",
+   "entry_type": "organisation",
+   "name": "KALAN KISH SHIPPING CO",
+   "aliases": [
+    "KALAN KISH SHIPPING LINES"
+   ],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Iran"
+   ],
+   "programs": [
+    "IRAN"
+   ]
+  },
+  {
+   "entry_id": "26150",
+   "entry_type": "organisation",
+   "name": "INKUORTYN FIVE SRL",
+   "aliases": [
+    "LA TERRAZA DE LA KUORA",
+    "LA KUORA TERRAZA"
+   ],
+   "weak_aliases": [
+    "LA KUORA"
+   ],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "131-45973-2",
+     "country": "Dominican Republic"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Dominican Republic"
+   ],
+   "programs": [
+    "SDNTK"
+   ]
+  },
+  {
+   "entry_id": "26418",
+   "entry_type": "individual",
+   "name": "Omar Jose PRIETO FERNANDEZ",
+   "aliases": [
+    "Omar PRIETO"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "9761075",
+     "country": "Venezuela"
+    }
+   ],
+   "dates_of_birth": [
+    "25 May 1969"
+   ],
+   "nationalities": [],
+   "countries": [
+    "Venezuela"
+   ],
+   "programs": [
+    "VENEZUELA"
+   ]
+  },
+  {
+   "entry_id": "26513",
+   "entry_type": "organisation",
+   "name": "PAO ZVEZDA",
+   "aliases": [
+    "PUBLICHNOE AKTSIONERNOE OBSHCHESTVO ZVEZDA",
+    "PUBLIC JOINT STOCK COMPANY ZVEZDA",
+    "PJSC ZVEZDA"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "1037825005085",
+     "country": "Russia"
+    },
+    {
+     "type": "OTHER",
+     "value": "7811038760",
+     "country": "Russia"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "UKRAINE-EO13662"
+   ]
+  },
+  {
+   "entry_id": "26715",
+   "entry_type": "individual",
+   "name": "Muhammad Abd-al-Qadir Mutni Assaf AL-RAWI",
+   "aliases": [
+    "Muhammad 'Abd-al-Qadir MATNI",
+    "Muhammad Abdul Qadar MUTNI",
+    "Mohammed Abdulqader MATNEE",
+    "Mohammad Abdul Kadir MUTNI"
+   ],
+   "weak_aliases": [
+    "ABD-AL-QARIM, Abu"
+   ],
+   "identifiers": [
+    {
+     "type": "PASSPORT",
+     "value": "G2590897",
+     "country": null
+    }
+   ],
+   "dates_of_birth": [
+    "15 Apr 1983"
+   ],
+   "nationalities": [],
+   "countries": [
+    "Iraq"
+   ],
+   "programs": [
+    "SDGT"
+   ]
+  },
+  {
+   "entry_id": "26747",
+   "entry_type": "organisation",
+   "name": "OFFISCOOP NV",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "2093373727",
+     "country": "Belgium"
+    },
+    {
+     "type": "OTHER",
+     "value": "0473365047",
+     "country": "Belgium"
+    },
+    {
+     "type": "OTHER",
+     "value": "37-163-1008",
+     "country": null
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Belgium"
+   ],
+   "programs": [
+    "SDGT"
+   ]
+  },
+  {
+   "entry_id": "27084",
+   "entry_type": "individual",
+   "name": "Denis Igorevich KUZMIN",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [
+    "18 Dec 1990"
+   ],
+   "nationalities": [],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "ELECTION-EO13848"
+   ]
+  },
+  {
+   "entry_id": "27164",
+   "entry_type": "organisation",
+   "name": "EBTEKAR SANAT ILYA LLC",
+   "aliases": [
+    "EBTEKAR SANAT ILIYA COMPANY",
+    "EBTEKAR SANAT ELYA",
+    "EBTEKAR SANAT ILIA",
+    "EBTEKAR SANAT ILIYA",
+    "EBTEKAR SANAT ILYA CO. LTD"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "NATIONAL_ID",
+     "value": "10320636846",
+     "country": null
+    },
+    {
+     "type": "OTHER",
+     "value": "412225",
+     "country": null
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Iran"
+   ],
+   "programs": [
+    "IFSR",
+    "NPWMD"
+   ]
+  },
+  {
+   "entry_id": "27423",
+   "entry_type": "individual",
+   "name": "Goran ANDRIC",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [
+    "21 Apr 1965"
+   ],
+   "nationalities": [
+    "Serbia",
+    "Bosnia and Herzegovina"
+   ],
+   "countries": [
+    "Serbia"
+   ],
+   "programs": [
+    "GLOMAG"
+   ]
+  },
+  {
+   "entry_id": "27988",
+   "entry_type": "individual",
+   "name": "Taotao ZHANG",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "NATIONAL_ID",
+     "value": "32030419880214363X",
+     "country": "China"
+    }
+   ],
+   "dates_of_birth": [
+    "14 Feb 1988"
+   ],
+   "nationalities": [],
+   "countries": [
+    "China",
+    "Hong Kong"
+   ],
+   "programs": [
+    "SDNTK"
+   ]
+  },
+  {
+   "entry_id": "28353",
+   "entry_type": "individual",
+   "name": "Ekaterina Eduardovna PYRKOVA",
+   "aliases": [
+    "Kateryna Eduardivna PYRKOVA"
+   ],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [
+    "22 Aug 1967"
+   ],
+   "nationalities": [],
+   "countries": [
+    "Ukraine"
+   ],
+   "programs": [
+    "UKRAINE-EO13660"
+   ]
+  },
+  {
+   "entry_id": "29825",
+   "entry_type": "individual",
+   "name": "Abolfazl JABARI",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [
+    "27 Mar 1992"
+   ],
+   "nationalities": [
+    "Iran"
+   ],
+   "countries": [
+    "Iran"
+   ],
+   "programs": [
+    "IRAN-HR"
+   ]
+  },
+  {
+   "entry_id": "29837",
+   "entry_type": "individual",
+   "name": "Mansoor GASHASBI",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "PASSPORT",
+     "value": "J11580003",
+     "country": "Iran"
+    }
+   ],
+   "dates_of_birth": [
+    "13 Jun 1991"
+   ],
+   "nationalities": [
+    "Iran"
+   ],
+   "countries": [
+    "Iran"
+   ],
+   "programs": [
+    "IRAN-HR"
+   ]
+  },
+  {
+   "entry_id": "30864",
+   "entry_type": "organisation",
+   "name": "NABULEAKS",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Ukraine"
+   ],
+   "programs": [
+    "ELECTION-EO13848"
+   ]
+  },
+  {
+   "entry_id": "31302",
+   "entry_type": "individual",
+   "name": "Mariya Evgenevna ZUEVA",
+   "aliases": [
+    "Mariia Yevgenyevna ZUEVA"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "331403452400",
+     "country": "Russia"
+    }
+   ],
+   "dates_of_birth": [
+    "28 May 1983"
+   ],
+   "nationalities": [
+    "Russia"
+   ],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "CYBER2",
+    "ELECTION-EO13848",
+    "UKRAINE-EO13661"
+   ]
+  },
+  {
+   "entry_id": "31531",
+   "entry_type": "individual",
+   "name": "Leonardo Ovidio REYES RAMIREZ",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "PASSPORT",
+     "value": "A00000794",
+     "country": "Nicaragua"
+    },
+    {
+     "type": "NATIONAL_ID",
+     "value": "0810304650001P",
+     "country": "Nicaragua"
+    }
+   ],
+   "dates_of_birth": [
+    "03 Apr 1965"
+   ],
+   "nationalities": [
+    "Nicaragua"
+   ],
+   "countries": [
+    "Nicaragua"
+   ],
+   "programs": [
+    "NICARAGUA"
+   ]
+  },
+  {
+   "entry_id": "31831",
+   "entry_type": "individual",
+   "name": "Mikhail HRYB",
+   "aliases": [
+    "Mikhail Vyacheslavovich GRIB",
+    "Mikhail GRIB"
+   ],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [
+    "29 Jul 1980"
+   ],
+   "nationalities": [
+    "Belarus"
+   ],
+   "countries": [
+    "Belarus"
+   ],
+   "programs": [
+    "BELARUS"
+   ]
+  },
+  {
+   "entry_id": "32951",
+   "entry_type": "individual",
+   "name": "Romarico Vidal SOTOMAYOR GARCIA",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [
+    "04 Nov 1938"
+   ],
+   "nationalities": [
+    "Cuba"
+   ],
+   "countries": [
+    "Cuba"
+   ],
+   "programs": [
+    "GLOMAG"
+   ]
+  },
+  {
+   "entry_id": "33394",
+   "entry_type": "organisation",
+   "name": "OOO GARDSERVIS",
+   "aliases": [
+    "OBSHCHESTVO S OGRANICHENNOY OTVETSTVENNOSTYU GARDSERVIS",
+    "TAA HARDSERVIS",
+    "TAVARYSTVA Z ABMEZHAVANAY ADKAZNASTSYU HARDSERVIS",
+    "GARDSERVICE",
+    "BELSECURITYGROUP",
+    "LIMITED LIABILITY COMPANY BELSEKYURITIGRUPP"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "193344802",
+     "country": "Belarus"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Belarus"
+   ],
+   "programs": [
+    "BELARUS-EO14038"
+   ]
+  },
+  {
+   "entry_id": "33498",
+   "entry_type": "individual",
+   "name": "Jamil SAYYED",
+   "aliases": [
+    "Jamil Muhammad Amin Amin AL-SAYED",
+    "Jamil EL SAYED",
+    "Jamil Mohamad Amin EL SAYED"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "PASSPORT",
+     "value": "RL3234354",
+     "country": "Lebanon"
+    }
+   ],
+   "dates_of_birth": [
+    "15 Jul 1950"
+   ],
+   "nationalities": [
+    "Lebanon"
+   ],
+   "countries": [
+    "Lebanon"
+   ],
+   "programs": [
+    "LEBANON"
+   ]
+  },
+  {
+   "entry_id": "33750",
+   "entry_type": "vessel",
+   "name": "FU YUAN YU 8647",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "IMO",
+     "value": "IMO 9940497",
+     "country": null
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [],
+   "programs": [
+    "GLOMAG"
+   ]
+  },
+  {
+   "entry_id": "34063",
+   "entry_type": "organisation",
+   "name": "WOODFORD ENTERPRISES LIMITED SASU",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "CD/KNG/RCCM/18-B-01274",
+     "country": "Congo, Democratic Republic of the"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Congo, Democratic Republic of the"
+   ],
+   "programs": [
+    "GLOMAG"
+   ]
+  },
+  {
+   "entry_id": "34105",
+   "entry_type": "individual",
+   "name": "Adeeb Namer SALAMEH",
+   "aliases": [
+    "Adib Nimr SALAMAH",
+    "Adib SALAMEH"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "PASSPORT",
+     "value": "578761",
+     "country": "Syria"
+    }
+   ],
+   "dates_of_birth": [
+    "26 Nov 1953"
+   ],
+   "nationalities": [
+    "Syria"
+   ],
+   "countries": [
+    "Syria"
+   ],
+   "programs": [
+    "PAARSSR-EO13894"
+   ]
+  },
+  {
+   "entry_id": "34142",
+   "entry_type": "organisation",
+   "name": "ZAHEDAN PRISON",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Iran"
+   ],
+   "programs": [
+    "CAATSA - IRAN"
+   ]
+  },
+  {
+   "entry_id": "34416",
+   "entry_type": "individual",
+   "name": "Stanislav SHEVCHUK",
+   "aliases": [
+    "Stanislav Anatolevich SHEVCHUK",
+    "Stanislav CHEVTCHOUK",
+    "Stanislav Anatolyevich SHEVCHUK"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "PASSPORT",
+     "value": "530780883",
+     "country": "Russia"
+    },
+    {
+     "type": "PASSPORT",
+     "value": "514676569",
+     "country": "Russia"
+    }
+   ],
+   "dates_of_birth": [
+    "14 Jul 1975"
+   ],
+   "nationalities": [
+    "Russia"
+   ],
+   "countries": [
+    "Belarus",
+    "Spain"
+   ],
+   "programs": [
+    "SDGT"
+   ]
+  },
+  {
+   "entry_id": "34616",
+   "entry_type": "organisation",
+   "name": "ARIMERO HOLDING LIMITED",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "C146742",
+     "country": "Cyprus"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Cyprus"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "35474",
+   "entry_type": "individual",
+   "name": "Galina Petrovna KHOVANSKAYA",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [
+    "23 Aug 1943"
+   ],
+   "nationalities": [
+    "Russia"
+   ],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "35479",
+   "entry_type": "individual",
+   "name": "Nikolay Mikhaylovich SHCHEGLOV",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [
+    "16 Mar 1960"
+   ],
+   "nationalities": [
+    "Russia"
+   ],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "35480",
+   "entry_type": "individual",
+   "name": "Adalbi Lyulevich SHKHAGOSHEV",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [
+    "06 Jun 1967"
+   ],
+   "nationalities": [
+    "Russia"
+   ],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "35542",
+   "entry_type": "individual",
+   "name": "Olga Nikolayevna AMELCHENKOVA",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [
+    "05 Sep 1990"
+   ],
+   "nationalities": [
+    "Russia"
+   ],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "35576",
+   "entry_type": "individual",
+   "name": "Oleg Dorianovich VALENCHUK",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [
+    "14 Sep 1960"
+   ],
+   "nationalities": [
+    "Russia"
+   ],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "35608",
+   "entry_type": "individual",
+   "name": "Oleg Dmitriyevich DIMOV",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [
+    "08 Mar 1968"
+   ],
+   "nationalities": [
+    "Russia"
+   ],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "35654",
+   "entry_type": "individual",
+   "name": "Sergey Nikolayevich KOTKIN",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [
+    "11 Mar 1956"
+   ],
+   "nationalities": [
+    "Russia"
+   ],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "35669",
+   "entry_type": "individual",
+   "name": "Vyacheslav Yuryevich LOGINOV",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [
+    "09 Jan 1979"
+   ],
+   "nationalities": [
+    "Russia"
+   ],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "36365",
+   "entry_type": "organisation",
+   "name": "LIMITED LIABILITY COMPANY VLADEKS KHOLDING",
+   "aliases": [
+    "LLC VLADEKS KHOLDING"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "7704457928",
+     "country": "Russia"
+    },
+    {
+     "type": "OTHER",
+     "value": "1187746643370",
+     "country": "Russia"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "36780",
+   "entry_type": "individual",
+   "name": "Gennady Egorovich EMELYANOV",
+   "aliases": [
+    "Gennady Egorovich YEMELYANOV"
+   ],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [
+    "01 Jan 1957"
+   ],
+   "nationalities": [
+    "Russia"
+   ],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "36861",
+   "entry_type": "individual",
+   "name": "Inna Yuryevna SVYATENKO",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [
+    "06 Sep 1967"
+   ],
+   "nationalities": [
+    "Russia"
+   ],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "37001",
+   "entry_type": "individual",
+   "name": "Aleksei Valerievich POPOVICH",
+   "aliases": [
+    "Aleksey Valeryevich POPOVICH"
+   ],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [
+    "1987"
+   ],
+   "nationalities": [
+    "Russia"
+   ],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "37067",
+   "entry_type": "vessel",
+   "name": "ANASTASIIA",
+   "aliases": [
+    "VIKTORIA SHAIN"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "IMO",
+     "value": "IMO 9349291",
+     "country": null
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "37184",
+   "entry_type": "individual",
+   "name": "Ari KARDIAN",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "PASSPORT",
+     "value": "A 8799177",
+     "country": "Indonesia"
+    }
+   ],
+   "dates_of_birth": [
+    "16 Feb 1990"
+   ],
+   "nationalities": [
+    "Indonesia"
+   ],
+   "countries": [
+    "Indonesia"
+   ],
+   "programs": [
+    "SDGT"
+   ]
+  },
+  {
+   "entry_id": "37218",
+   "entry_type": "organisation",
+   "name": "IMPERIAL YACHTS SARL",
+   "aliases": [
+    "IMPERIAL YACHTS LIMITED",
+    "IMPERIAL YACHTS LTD"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "08S04803",
+     "country": "Monaco"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Jersey",
+    "Monaco",
+    "Russia",
+    "United Kingdom"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "37260",
+   "entry_type": "individual",
+   "name": "David Alonso CHAVARIN PRECIADO",
+   "aliases": [],
+   "weak_aliases": [
+    "Chava"
+   ],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "CAPD821229IG4",
+     "country": "Mexico"
+    }
+   ],
+   "dates_of_birth": [
+    "29 Dec 1982"
+   ],
+   "nationalities": [
+    "Mexico"
+   ],
+   "countries": [
+    "Mexico"
+   ],
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ]
+  },
+  {
+   "entry_id": "37490",
+   "entry_type": "individual",
+   "name": "Azim MONZAVI",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "PASSPORT",
+     "value": "A30472984",
+     "country": "Iran"
+    },
+    {
+     "type": "NATIONAL_ID",
+     "value": "4622001640",
+     "country": "Iran"
+    },
+    {
+     "type": "PASSPORT",
+     "value": "E49290734",
+     "country": "Iran"
+    }
+   ],
+   "dates_of_birth": [
+    "20 Sep 1963"
+   ],
+   "nationalities": [],
+   "countries": [
+    "Iran"
+   ],
+   "programs": [
+    "IFSR",
+    "IRGC",
+    "SDGT"
+   ]
+  },
+  {
+   "entry_id": "37785",
+   "entry_type": "individual",
+   "name": "Vladimir Nikolaevich ANTONOV",
+   "aliases": [
+    "Volodymyr Mykolayovych ANTONOV"
+   ],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [
+    "24 Dec 1979"
+   ],
+   "nationalities": [
+    "Ukraine",
+    "Russia"
+   ],
+   "countries": [
+    "Ukraine"
+   ],
+   "programs": [
+    "RUSSIA-EO14065"
+   ]
+  },
+  {
+   "entry_id": "38236",
+   "entry_type": "individual",
+   "name": "Dmitriy Aleksandrovich PUMPYANSKIY",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "665800421844",
+     "country": "Russia"
+    }
+   ],
+   "dates_of_birth": [
+    "22 Mar 1964"
+   ],
+   "nationalities": [
+    "Russia"
+   ],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "38256",
+   "entry_type": "individual",
+   "name": "Nariman Gadzhievich GADZHIEV",
+   "aliases": [
+    "Nariman Gadzhiyevich GADZHIYEV"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "PASSPORT",
+     "value": "RE0032776",
+     "country": "Saint Kitts and Nevis"
+    }
+   ],
+   "dates_of_birth": [
+    "31 May 1976"
+   ],
+   "nationalities": [
+    "Saint Kitts and Nevis",
+    "Russia"
+   ],
+   "countries": [
+    "Switzerland",
+    "United Arab Emirates"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "39319",
+   "entry_type": "individual",
+   "name": "Yulan Adonay ARCHAGA CARIAS",
+   "aliases": [],
+   "weak_aliases": [
+    "PORKY",
+    "MENDOZA, Alexander"
+   ],
+   "identifiers": [],
+   "dates_of_birth": [
+    "13 Feb 1982",
+    "21 Jan 1982"
+   ],
+   "nationalities": [
+    "Honduras"
+   ],
+   "countries": [
+    "Honduras"
+   ],
+   "programs": [
+    "TCO"
+   ]
+  },
+  {
+   "entry_id": "39364",
+   "entry_type": "individual",
+   "name": "Sergey Ottovich FRANK",
+   "aliases": [
+    "Sergei Ottovich FRANK"
+   ],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [
+    "13 Aug 1960"
+   ],
+   "nationalities": [
+    "Russia"
+   ],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "39595",
+   "entry_type": "organisation",
+   "name": "ERJM LIMITED",
+   "aliases": [],
+   "weak_aliases": [
+    "ERJM LTD"
+   ],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "GB264205718",
+     "country": "United Kingdom"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "United Kingdom"
+   ],
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ]
+  },
+  {
+   "entry_id": "39693",
+   "entry_type": "vessel",
+   "name": "SAINT LIGHT",
+   "aliases": [
+    "STELLAR ORACLE",
+    "YOUNG YONG"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "IMO",
+     "value": "IMO 9194127",
+     "country": null
+    },
+    {
+     "type": "MMSI",
+     "value": "750514000",
+     "country": null
+    },
+    {
+     "type": "CALL_SIGN",
+     "value": "8RAR1",
+     "country": null
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [],
+   "programs": [
+    "SDGT"
+   ]
+  },
+  {
+   "entry_id": "40133",
+   "entry_type": "individual",
+   "name": "Lyudmila Nikolaevna ZAITSEVA",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "230910614470",
+     "country": "Russia"
+    }
+   ],
+   "dates_of_birth": [
+    "25 Jul 1979"
+   ],
+   "nationalities": [
+    "Russia"
+   ],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "40190",
+   "entry_type": "organisation",
+   "name": "LIMITED LIABILITY COMPANY TKKH-INVEST",
+   "aliases": [
+    "OBSHCHESTVO S OGRANICHENNOI OTVETSTVENNOSTYU TKKH-INVEST",
+    "LLC TKKH-INVEST",
+    "OOO TKKH-INVEST",
+    "OOO TKH-INVEST"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "5137746019989",
+     "country": "Russia"
+    },
+    {
+     "type": "OTHER",
+     "value": "7736666723",
+     "country": "Russia"
+    },
+    {
+     "type": "OTHER",
+     "value": "18935553",
+     "country": "Russia"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "40356",
+   "entry_type": "individual",
+   "name": "Kil Su HWANG",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [
+    "09 Dec 1973"
+   ],
+   "nationalities": [
+    "Korea, North"
+   ],
+   "countries": [
+    "Congo, Democratic Republic of the"
+   ],
+   "programs": [
+    "DPRK4"
+   ]
+  },
+  {
+   "entry_id": "40816",
+   "entry_type": "organisation",
+   "name": "LIMITED LIABILITY COMPANY ARENDOFF",
+   "aliases": [
+    "ARENDOFF OOO"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "7710724547",
+     "country": "Russia"
+    },
+    {
+     "type": "OTHER",
+     "value": "1087746891594",
+     "country": "Russia"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "40820",
+   "entry_type": "organisation",
+   "name": "LIMITED LIABILITY COMPANY NEW CITY",
+   "aliases": [
+    "NOVY GOROD OOO"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "5040130894",
+     "country": "Russia"
+    },
+    {
+     "type": "OTHER",
+     "value": "1145040006506",
+     "country": "Russia"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "40877",
+   "entry_type": "organisation",
+   "name": "JOINT STOCK COMMERCIAL BANK PRIMORYE",
+   "aliases": [
+    "PJSCB PRIMORYE",
+    "AKB PRIMORYE PAO",
+    "JSCB PRIMORYE BANK"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "1022500000566",
+     "country": "Russia"
+    },
+    {
+     "type": "OTHER",
+     "value": "2536020789",
+     "country": "Russia"
+    },
+    {
+     "type": "LEI",
+     "value": "25340019U0SFT4YC9G79",
+     "country": null
+    },
+    {
+     "type": "BIC",
+     "value": "UNEPRU8V",
+     "country": null
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024",
+    "UKRAINE-EO13662"
+   ]
+  },
+  {
+   "entry_id": "41048",
+   "entry_type": "individual",
+   "name": "Yuriy Mikhailovich MILEKHIN",
+   "aliases": [
+    "Yuriy Mihailovich MILEKHIN"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "505600438416",
+     "country": "Russia"
+    }
+   ],
+   "dates_of_birth": [
+    "27 May 1947"
+   ],
+   "nationalities": [
+    "Russia"
+   ],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "41098",
+   "entry_type": "organisation",
+   "name": "JOINT STOCK COMPANY ENIKS",
+   "aliases": [
+    "ENIKS AO",
+    "JSC ENIKS"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "1031632202227",
+     "country": "Russia"
+    },
+    {
+     "type": "OTHER",
+     "value": "1661009974",
+     "country": "Russia"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "41300",
+   "entry_type": "individual",
+   "name": "Yaqin WU",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "NATIONAL_ID",
+     "value": "429004199211135144",
+     "country": "China"
+    }
+   ],
+   "dates_of_birth": [
+    "13 Nov 1992"
+   ],
+   "nationalities": [
+    "China"
+   ],
+   "countries": [
+    "China"
+   ],
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ]
+  },
+  {
+   "entry_id": "41318",
+   "entry_type": "organisation",
+   "name": "OPEN JOINT STOCK COMPANY MINSK AUTOMOBILE PLANT",
+   "aliases": [
+    "OJSC MINSK AUTOMOBILE PLANT",
+    "OAO MINSKI AVTOMOBILNYI ZAVOD",
+    "AAT MINSKI AUTAMABILNY ZAVOD",
+    "OTKRYTOE AKTSIONERNOE OBSHCHESTVO MINSKII AVTOMOBILNYI ZAVOD - UPRAVLYAYUSHCHAYA KOMPANIYA KHOLDINGA BELAVTOMAZ",
+    "OPEN JOINT STOCK COMPANY MINSK AUTOMOBILE PLANT - MANAGEMENT COMPANY OF HOLDING BELAVTOMAZ",
+    "ADKRYTAYE AKTSYYANERNAYE TAVARYSTVA MINSKI AUTAMABILLNY ZAVOD - KIRUYUCHAYA KAMPANIYA KHOLDYNGU BELAUTAMAZ"
+   ],
+   "weak_aliases": [
+    "OJSC MAZ"
+   ],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "100320487",
+     "country": "Belarus"
+    },
+    {
+     "type": "OTHER",
+     "value": "05808729",
+     "country": "Belarus"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Belarus"
+   ],
+   "programs": [
+    "BELARUS-EO14038"
+   ]
+  },
+  {
+   "entry_id": "41383",
+   "entry_type": "organisation",
+   "name": "YANTAI MEI XUN TRADE CO., LTD.",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "91370602MA3PGY400W",
+     "country": "China"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "China"
+   ],
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ]
+  },
+  {
+   "entry_id": "41494",
+   "entry_type": "individual",
+   "name": "Gulbakhor Burkhanovna ISMAILOVA",
+   "aliases": [
+    "Gulbahor Burkhanovna ISMAILOVA"
+   ],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [
+    "22 Dec 1959"
+   ],
+   "nationalities": [
+    "Uzbekistan",
+    "Russia",
+    "Cyprus"
+   ],
+   "countries": [
+    "Uzbekistan"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "43268",
+   "entry_type": "organisation",
+   "name": "PUBLIC JOINT STOCK COMPANY SAMARANEFTEGEOFIZIKA",
+   "aliases": [
+    "SAMARANEFTEGEOFIZIKA OAO"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "6315230513",
+     "country": "Russia"
+    },
+    {
+     "type": "OTHER",
+     "value": "1026300962093",
+     "country": "Russia"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "44080",
+   "entry_type": "organisation",
+   "name": "OSIPYAN INSTITUTE OF SOLID STATE PHYSICS OF THE RUSSIAN ACADEMY OF SCIENCES",
+   "aliases": [
+    "INSTITUTE OF SOLID STATE PHYSICS OF THE ACADEMY OF SCIENCES SSSR",
+    "FEDERAL STATE BUDGETARY INSTITUTION OF SCIENCE INSTITUTE OF SOLID STATE PHYSICS N.A. YU. A. OSIPYAN OF THE RUSSIAN ACADEMY OF SCIENCES",
+    "FEDERALNOE GOSUDARSTVENNOE BYUDZHETNOE UCHREZHDENIE NAUKI INSTITUT FIZIKI TVERDOGO TELA ROSSISKOI AKADEMII NAUK FGBU",
+    "FEDERALNOE GOSUDARSTVENNOE BYUDZHETNOE UCHREZHDENIE NAUKI INSTITUT FIZIKI TVERDOGO TELA ROSSISKOI AKADEMII NAUK BU"
+   ],
+   "weak_aliases": [
+    "ISSP RAS",
+    "IFTT RAN"
+   ],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "1025003915243",
+     "country": "Russia"
+    },
+    {
+     "type": "OTHER",
+     "value": "5031003120",
+     "country": "Russia"
+    },
+    {
+     "type": "OTHER",
+     "value": "02699796",
+     "country": "Russia"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "44538",
+   "entry_type": "individual",
+   "name": "Dzmitry Aliakseevich ALEKSIN",
+   "aliases": [
+    "Dmitry Alexeevich OLEKSIN"
+   ],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [
+    "25 Apr 1987"
+   ],
+   "nationalities": [
+    "Belarus"
+   ],
+   "countries": [
+    "Belarus"
+   ],
+   "programs": [
+    "BELARUS-EO14038"
+   ]
+  },
+  {
+   "entry_id": "44902",
+   "entry_type": "individual",
+   "name": "Maksim GALOCHKIN",
+   "aliases": [],
+   "weak_aliases": [
+    "BENTLEY",
+    "CRYPT",
+    "VOLHVB"
+   ],
+   "identifiers": [],
+   "dates_of_birth": [
+    "19 May 1982"
+   ],
+   "nationalities": [
+    "Russia"
+   ],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "CYBER2"
+   ]
+  },
+  {
+   "entry_id": "44967",
+   "entry_type": "organisation",
+   "name": "OPEN JOINT STOCK COMPANY TIKHORETSK MACHINE CONSTRUCTION PLANT V.V. VOROVSKY",
+   "aliases": [
+    "V.V. VOROVSKY TIKHORETSK MACHINE CONSTRUCTION PLANT JOINT STOCK COMPANY",
+    "OTKRYTOE AKTSIONERNOE OBSHCHESTVO TIKHORETSKI MASHINOSTROITELNY ZAVOD IM V.V. VOROVSKOGO",
+    "TMZ IM. V.V. VOROVSKOGO PAO",
+    "TMCP V.V. VOROVSKY",
+    "JSC TIKHORETSK MACHINE BUILDING PLANT"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "00210743",
+     "country": "Russia"
+    },
+    {
+     "type": "OTHER",
+     "value": "1022303184738",
+     "country": "Russia"
+    },
+    {
+     "type": "OTHER",
+     "value": "2321003173",
+     "country": "Russia"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024",
+    "UKRAINE-EO13662"
+   ]
+  },
+  {
+   "entry_id": "45632",
+   "entry_type": "organisation",
+   "name": "PUBLIC JOINT STOCK COMPANY SASTA",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "1026201399608",
+     "country": "Russia"
+    },
+    {
+     "type": "OTHER",
+     "value": "6232000019",
+     "country": "Russia"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "46003",
+   "entry_type": "individual",
+   "name": "Aleksey Sergeevich BESPROZVANNYKH",
+   "aliases": [
+    "Alexey Sergeyevich BESPROZVANNYKH"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "222408092578",
+     "country": "Russia"
+    }
+   ],
+   "dates_of_birth": [
+    "23 Aug 1979"
+   ],
+   "nationalities": [
+    "Russia"
+   ],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "46475",
+   "entry_type": "individual",
+   "name": "Wilson JOSEPH",
+   "aliases": [],
+   "weak_aliases": [
+    "WILSON, Joseph",
+    "LANMO SAN JOU",
+    "BEENIE",
+    "BIG CHIEF",
+    "LANMOU100JOU",
+    "LAMO SANJOU"
+   ],
+   "identifiers": [],
+   "dates_of_birth": [
+    "28 Feb 1993"
+   ],
+   "nationalities": [
+    "Haiti"
+   ],
+   "countries": [
+    "Haiti"
+   ],
+   "programs": [
+    "GLOMAG"
+   ]
+  },
+  {
+   "entry_id": "46816",
+   "entry_type": "individual",
+   "name": "Salah Abdallah Mohamed SALAH",
+   "aliases": [
+    "Salah Abdallah Mohamed SALEH"
+   ],
+   "weak_aliases": [
+    "GOSH, Salah",
+    "GHOSH, Salah"
+   ],
+   "identifiers": [],
+   "dates_of_birth": [
+    "1957"
+   ],
+   "nationalities": [
+    "Sudan"
+   ],
+   "countries": [
+    "Egypt"
+   ],
+   "programs": [
+    "SUDAN-EO14098"
+   ]
+  },
+  {
+   "entry_id": "47287",
+   "entry_type": "individual",
+   "name": "Jose Adolfo MACIAS VILLAMAR",
+   "aliases": [],
+   "weak_aliases": [
+    "Fito"
+   ],
+   "identifiers": [],
+   "dates_of_birth": [
+    "30 Sep 1979"
+   ],
+   "nationalities": [
+    "Ecuador"
+   ],
+   "countries": [
+    "Ecuador"
+   ],
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ]
+  },
+  {
+   "entry_id": "47482",
+   "entry_type": "organisation",
+   "name": "LIMITED LIABILITY COMPANY NAVIGATOR",
+   "aliases": [
+    "NAVIGATOR GROUP OF COMPANIES"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "1117746328590",
+     "country": "Russia"
+    },
+    {
+     "type": "OTHER",
+     "value": "7716688038",
+     "country": "Russia"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "47539",
+   "entry_type": "organisation",
+   "name": "IT1 DIGITAL SOLUTIONS LIMITED LIABILITY COMPANY",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "1217700276859",
+     "country": "Russia"
+    },
+    {
+     "type": "OTHER",
+     "value": "9717102958",
+     "country": "Russia"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "47771",
+   "entry_type": "organisation",
+   "name": "LIMITED LIABILITY COMPANY RIMERA SERVIS",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "7705907626",
+     "country": "Russia"
+    },
+    {
+     "type": "OTHER",
+     "value": "1107746018060",
+     "country": "Russia"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "47777",
+   "entry_type": "individual",
+   "name": "Akhmed Makhmudovich DUDAEV",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "201204309073",
+     "country": "Russia"
+    }
+   ],
+   "dates_of_birth": [
+    "02 Aug 1987"
+   ],
+   "nationalities": [
+    "Russia"
+   ],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "48683",
+   "entry_type": "individual",
+   "name": "Majid DEHGHAN",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "NATIONAL_ID",
+     "value": "0083115234",
+     "country": "Iran"
+    }
+   ],
+   "dates_of_birth": [
+    "22 Sep 1988"
+   ],
+   "nationalities": [
+    "Iran"
+   ],
+   "countries": [
+    "Iran"
+   ],
+   "programs": [
+    "IFSR",
+    "IRGC",
+    "SDGT"
+   ]
+  },
+  {
+   "entry_id": "48773",
+   "entry_type": "organisation",
+   "name": "GMM FZE",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "18050",
+     "country": "United Arab Emirates"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "United Arab Emirates"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "48859",
+   "entry_type": "individual",
+   "name": "Alexey Borisovich SDOBNOV",
+   "aliases": [
+    "Oleksii Borysovych SDOBNOV"
+   ],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [
+    "08 May 1983"
+   ],
+   "nationalities": [
+    "Russia"
+   ],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "48883",
+   "entry_type": "organisation",
+   "name": "LIMITED LIABILITY COMPANY LISTVYANSKIY ENRICHMENT COMPLEX",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "1194205019634",
+     "country": "Russia"
+    },
+    {
+     "type": "OTHER",
+     "value": "4214040706",
+     "country": "Russia"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "48884",
+   "entry_type": "individual",
+   "name": "Andrey Leonidovich TERLIKOV",
+   "aliases": [
+    "Andrei Leonidovich TERLIKOV"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "662317683996",
+     "country": "Russia"
+    }
+   ],
+   "dates_of_birth": [
+    "22 Feb 1962"
+   ],
+   "nationalities": [
+    "Russia"
+   ],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "48887",
+   "entry_type": "organisation",
+   "name": "LIMITED LIABILITY COMPANY SOVREMENNYE GORNO TRANSPORTNYE TEKHNOLOGII",
+   "aliases": [],
+   "weak_aliases": [
+    "LLC SGTT"
+   ],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "1191513002020",
+     "country": "Russia"
+    },
+    {
+     "type": "OTHER",
+     "value": "1513075148",
+     "country": "Russia"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "49246",
+   "entry_type": "organisation",
+   "name": "ASTROSIB",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "11155476003356",
+     "country": "Russia"
+    },
+    {
+     "type": "OTHER",
+     "value": "54006656346",
+     "country": "Russia"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "49440",
+   "entry_type": "organisation",
+   "name": "JOINT STOCK COMPANY RESEARCH AND PRODUCTION ASSOCIATION ISKRA",
+   "aliases": [
+    "PUBLICHNOE AKTSIONERNOE OBSHCHESTVO NAUCHNO PROIZVODSTVENNOE OBEDINENIE ISKRA",
+    "PAO NPO ISKRA"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "1025901509798",
+     "country": "Russia"
+    },
+    {
+     "type": "OTHER",
+     "value": "5907001774",
+     "country": "Russia"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "49679",
+   "entry_type": "organisation",
+   "name": "CITY BASE GROUP LIMITED",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "2805052",
+     "country": "Hong Kong"
+    },
+    {
+     "type": "OTHER",
+     "value": "70472756",
+     "country": "Hong Kong"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "China"
+   ],
+   "programs": [
+    "IFSR",
+    "SDGT"
+   ]
+  },
+  {
+   "entry_id": "49783",
+   "entry_type": "organisation",
+   "name": "YLH ELECTRONICS HK CO LIMITED",
+   "aliases": [
+    "YLH ELECTRONICS (H.K.) CO., LIMITED"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "0998741",
+     "country": "Hong Kong"
+    },
+    {
+     "type": "OTHER",
+     "value": "36061795",
+     "country": "Hong Kong"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "China"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "49931",
+   "entry_type": "organisation",
+   "name": "QINGDAO HEHUIXIN INTERNATIONAL TRADE CO LTD",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "91370281MAC1EYTW5E",
+     "country": "China"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "China"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "49952",
+   "entry_type": "organisation",
+   "name": "AKTSIONERNOE OBSHCHESTVO KORPORATSIYA GALAKTIKA",
+   "aliases": [
+    "AO KORPORATSIYA GALAKTIKA",
+    "GALACTICA CORPORATION"
+   ],
+   "weak_aliases": [
+    "GALAXY CORPORATION"
+   ],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "1027739341520",
+     "country": "Russia"
+    },
+    {
+     "type": "OTHER",
+     "value": "7707140573",
+     "country": "Russia"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "50120",
+   "entry_type": "organisation",
+   "name": "SPE OU",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "14263832",
+     "country": "Estonia"
+    },
+    {
+     "type": "OTHER",
+     "value": "EE101978060",
+     "country": "Estonia"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Estonia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "50195",
+   "entry_type": "individual",
+   "name": "Marat Khanbalevich GABITOV",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "501003306539",
+     "country": "Russia"
+    },
+    {
+     "type": "NATIONAL_ID",
+     "value": "4509776350",
+     "country": "Russia"
+    }
+   ],
+   "dates_of_birth": [
+    "14 Jun 1956"
+   ],
+   "nationalities": [
+    "Russia"
+   ],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "50299",
+   "entry_type": "individual",
+   "name": "Giulio SFOGLIETTI",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "SFGGLI60D02H501T",
+     "country": "Italy"
+    },
+    {
+     "type": "PASSPORT",
+     "value": "YB3263805",
+     "country": "Italy"
+    }
+   ],
+   "dates_of_birth": [
+    "02 Apr 1960"
+   ],
+   "nationalities": [
+    "Italy"
+   ],
+   "countries": [
+    "Italy"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "50395",
+   "entry_type": "organisation",
+   "name": "JOINT STOCK COMPANY TECHNOROS",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "7804062433",
+     "country": "Russia"
+    },
+    {
+     "type": "OTHER",
+     "value": "1027802501980",
+     "country": "Russia"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "50427",
+   "entry_type": "organisation",
+   "name": "LIMITED LIABILITY COMPANY LEGION KOMPLEKT",
+   "aliases": [],
+   "weak_aliases": [
+    "LLC LEKO"
+   ],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "1177746464378",
+     "country": "Russia"
+    },
+    {
+     "type": "OTHER",
+     "value": "7743208298",
+     "country": "Russia"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "50521",
+   "entry_type": "organisation",
+   "name": "OCEAN SPEEDSTAR SOLUTIONS OPC PRIVATE LIMITED",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "U52292MH2024OPC426638",
+     "country": "India"
+    },
+    {
+     "type": "NATIONAL_ID",
+     "value": "IMO 6508844",
+     "country": null
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "India"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "50526",
+   "entry_type": "vessel",
+   "name": "MARINA",
+   "aliases": [
+    "GEMGAZ"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "MMSI",
+     "value": "677054300",
+     "country": null
+    },
+    {
+     "type": "IMO",
+     "value": "IMO 9005493",
+     "country": null
+    },
+    {
+     "type": "CALL_SIGN",
+     "value": "51M643",
+     "country": null
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [],
+   "programs": [
+    "SDGT"
+   ]
+  },
+  {
+   "entry_id": "50550",
+   "entry_type": "individual",
+   "name": "Ivan Atzayacatl CASTANEDA MEZA",
+   "aliases": [],
+   "weak_aliases": [
+    "BONQUES BROTHERS",
+    "BONQUES, Axa"
+   ],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "CAMI840912HNTSZV09",
+     "country": "Mexico"
+    }
+   ],
+   "dates_of_birth": [
+    "12 Sep 1984"
+   ],
+   "nationalities": [
+    "Mexico"
+   ],
+   "countries": [
+    "Mexico"
+   ],
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ]
+  },
+  {
+   "entry_id": "50697",
+   "entry_type": "individual",
+   "name": "Javad GHAFFARHADDADI",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "PASSPORT",
+     "value": "F57122360",
+     "country": "Iran"
+    }
+   ],
+   "dates_of_birth": [
+    "23 Sep 1964"
+   ],
+   "nationalities": [
+    "Iran"
+   ],
+   "countries": [
+    "Iran"
+   ],
+   "programs": [
+    "IRAN-HR",
+    "IRGC"
+   ]
+  },
+  {
+   "entry_id": "50760",
+   "entry_type": "organisation",
+   "name": "AURORATOOLS LIMITED LIABILITY COMPANY",
+   "aliases": [
+    "OOO AVRORATULS"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "1187847001198",
+     "country": "Russia"
+    },
+    {
+     "type": "OTHER",
+     "value": "7811677710",
+     "country": "Russia"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "50774",
+   "entry_type": "organisation",
+   "name": "LIMITED LIABILITY COMPANY KB ATAMANOVA",
+   "aliases": [
+    "ATAMANOV DESIGN BUREAU"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "1237700493161",
+     "country": "Russia"
+    },
+    {
+     "type": "OTHER",
+     "value": "7734481300",
+     "country": "Russia"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "50784",
+   "entry_type": "organisation",
+   "name": "LIMITED LIABILITY COMPANY ELEKTROPROFI",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "1025403195476",
+     "country": "Russia"
+    },
+    {
+     "type": "OTHER",
+     "value": "5407222077",
+     "country": "Russia"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "50993",
+   "entry_type": "organisation",
+   "name": "OTKRYTOE AKTSIONERNOE OBSHCHESTVO ELEKTROMASHINOSTROITELNYI ZAVOD VELKONT",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "1024300749087",
+     "country": "Russia"
+    },
+    {
+     "type": "OTHER",
+     "value": "4341009610",
+     "country": "Russia"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "51104",
+   "entry_type": "organisation",
+   "name": "SCATMAN AND HATMAN CORP, S.A.P.I. DE C.V.",
+   "aliases": [
+    "SCATMAN & HATMAN CORP, S.A.P.I. DE C.V."
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "N-2021024996",
+     "country": "Mexico"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Mexico"
+   ],
+   "programs": [
+    "ILLICIT-DRUGS-EO14059",
+    "SDGT"
+   ]
+  },
+  {
+   "entry_id": "51124",
+   "entry_type": "organisation",
+   "name": "JOINT STOCK COMPANY RESEARCH CENTRE VITYAZ",
+   "aliases": [
+    "AO NTTS VITYAZ",
+    "AKTSIONERNOE OBSHCHESTVO NAUCHNO TEKHNICHESKII TSENTR VITIAZ"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "1093254005503",
+     "country": "Russia"
+    },
+    {
+     "type": "OTHER",
+     "value": "3233502337",
+     "country": "Russia"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "51351",
+   "entry_type": "organisation",
+   "name": "LIGHTSHIP MANAGEMENT LTD",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "NATIONAL_ID",
+     "value": "IMO 6141155",
+     "country": null
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Bulgaria",
+    "India",
+    "Ukraine",
+    "United Arab Emirates"
+   ],
+   "programs": [
+    "IRAN-EO13902"
+   ]
+  },
+  {
+   "entry_id": "51363",
+   "entry_type": "organisation",
+   "name": "INAYA SHIP MANAGEMENT PRIVATE LIMITED",
+   "aliases": [
+    "INAYA SHIP MANAGEMENT PVT LTD"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "156059",
+     "country": "Pakistan"
+    },
+    {
+     "type": "NATIONAL_ID",
+     "value": "IMO 6176107",
+     "country": null
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Pakistan"
+   ],
+   "programs": [
+    "IRAN-EO13902"
+   ]
+  },
+  {
+   "entry_id": "51366",
+   "entry_type": "organisation",
+   "name": "GALILEOS MARINE SERVICES L.L.C",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "840352",
+     "country": "United Arab Emirates"
+    },
+    {
+     "type": "NATIONAL_ID",
+     "value": "IMO 6422671",
+     "country": null
+    },
+    {
+     "type": "OTHER",
+     "value": "11363519",
+     "country": "United Arab Emirates"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "United Arab Emirates"
+   ],
+   "programs": [
+    "IRAN-EO13902"
+   ]
+  },
+  {
+   "entry_id": "51461",
+   "entry_type": "organisation",
+   "name": "OOO REESTR RN",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "1027700172818",
+     "country": "Russia"
+    },
+    {
+     "type": "OTHER",
+     "value": "7705397301",
+     "country": "Russia"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "51571",
+   "entry_type": "vessel",
+   "name": "NS PRIDE",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "IMO",
+     "value": "IMO 9322956",
+     "country": null
+    },
+    {
+     "type": "MMSI",
+     "value": "626399000",
+     "country": null
+    },
+    {
+     "type": "CALL_SIGN",
+     "value": "TRBI6",
+     "country": null
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [],
+   "programs": [
+    "RUSSIA-EO14024",
+    "UKRAINE-EO13662"
+   ]
+  },
+  {
+   "entry_id": "51602",
+   "entry_type": "organisation",
+   "name": "LLC GOLFSTRIM",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "1141650013042",
+     "country": "Russia"
+    },
+    {
+     "type": "OTHER",
+     "value": "1650289328",
+     "country": "Russia"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024",
+    "UKRAINE-EO13662"
+   ]
+  },
+  {
+   "entry_id": "51627",
+   "entry_type": "vessel",
+   "name": "LEO",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "IMO",
+     "value": "IMO 9412347",
+     "country": null
+    },
+    {
+     "type": "MMSI",
+     "value": "314965000",
+     "country": null
+    },
+    {
+     "type": "CALL_SIGN",
+     "value": "8P2467",
+     "country": null
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [],
+   "programs": [
+    "RUSSIA-EO14024",
+    "UKRAINE-EO13662"
+   ]
+  },
+  {
+   "entry_id": "51712",
+   "entry_type": "vessel",
+   "name": "TASCA",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "IMO",
+     "value": "IMO 9313149",
+     "country": null
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [],
+   "programs": [
+    "RUSSIA-EO14024",
+    "UKRAINE-EO13662",
+    "IRAN-EO13846"
+   ]
+  },
+  {
+   "entry_id": "51809",
+   "entry_type": "organisation",
+   "name": "CORPORATE FINANCE BANK LLC",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "LEI",
+     "value": "2534003AVNMLD4D2KU43",
+     "country": null
+    },
+    {
+     "type": "OTHER",
+     "value": "1027739542050",
+     "country": "Russia"
+    },
+    {
+     "type": "OTHER",
+     "value": "7704111969",
+     "country": "Russia"
+    },
+    {
+     "type": "BIC",
+     "value": "FABARUMM",
+     "country": null
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "52068",
+   "entry_type": "individual",
+   "name": "Aybek MASHARIPOV",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [
+    "1979"
+   ],
+   "nationalities": [
+    "Uzbekistan"
+   ],
+   "countries": [
+    "Uzbekistan"
+   ],
+   "programs": [
+    "GLOMAG"
+   ]
+  },
+  {
+   "entry_id": "52098",
+   "entry_type": "organisation",
+   "name": "FIZA GOLD AND BULLION TRADING L.L.C",
+   "aliases": [
+    "FIZA GOLD AND DIAMOND JEWELLERY L.L.C"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "816507",
+     "country": "United Arab Emirates"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "United Arab Emirates"
+   ],
+   "programs": [
+    "GLOMAG"
+   ]
+  },
+  {
+   "entry_id": "52128",
+   "entry_type": "organisation",
+   "name": "LIMITED LIABILITY COMPANY GAZPROMNEFT REGIONAL SALES",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "1084703003384",
+     "country": "Russia"
+    },
+    {
+     "type": "OTHER",
+     "value": "4703105075",
+     "country": "Russia"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024",
+    "UKRAINE-EO13662"
+   ]
+  },
+  {
+   "entry_id": "52162",
+   "entry_type": "individual",
+   "name": "Aleksejs HALAVINS",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "NATIONAL_ID",
+     "value": "19118110919",
+     "country": "Latvia"
+    },
+    {
+     "type": "PASSPORT",
+     "value": "LV6197952",
+     "country": "Latvia"
+    }
+   ],
+   "dates_of_birth": [
+    "19 Nov 1981"
+   ],
+   "nationalities": [
+    "Latvia"
+   ],
+   "countries": [
+    "Latvia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024",
+    "UKRAINE-EO13662"
+   ]
+  },
+  {
+   "entry_id": "52214",
+   "entry_type": "organisation",
+   "name": "ZHEJIANG GFIR TECHNOLOGY AND INDUSTRIAL CO LTD",
+   "aliases": [
+    "ZHEJIANG JINHUO SCIENCE AND TECHNOLOGY INDUSTRY CO LTD"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "91330183759536548T",
+     "country": "China"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "China"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "52313",
+   "entry_type": "vessel",
+   "name": "ARJUN",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "IMO",
+     "value": "IMO 9297357",
+     "country": null
+    },
+    {
+     "type": "MMSI",
+     "value": "352002801",
+     "country": null
+    },
+    {
+     "type": "CALL_SIGN",
+     "value": "3E5088",
+     "country": null
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [],
+   "programs": [
+    "RUSSIA-EO14024",
+    "UKRAINE-EO13662"
+   ]
+  },
+  {
+   "entry_id": "52657",
+   "entry_type": "organisation",
+   "name": "LIMITED LIABILITY COMPANY RESEARCH AND PRODUCTION ENTERPRISE ANTARES",
+   "aliases": [
+    "OBSHCHESTVO S OGRANICHENNOI OTVETSTVENNOSTIU NAUCHNO PROIZVODSTVENNOE PREDPRIIATIE ANTARES",
+    "OOO NPP ANTARES"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "1026402660250",
+     "country": "Russia"
+    },
+    {
+     "type": "OTHER",
+     "value": "6452000776",
+     "country": "Russia"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "52749",
+   "entry_type": "organisation",
+   "name": "SICHUAN JUXINHE NETWORK TECHNOLOGY CO., LTD.",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "91510600399136451Q",
+     "country": "China"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "China"
+   ],
+   "programs": [
+    "CYBER3"
+   ]
+  },
+  {
+   "entry_id": "52919",
+   "entry_type": "individual",
+   "name": "Abdulwali Abdoh Hasan AL-JABRI",
+   "aliases": [
+    "Abd-Al-Wali AL-JABRI",
+    "Abdul Wali AL-JABRI"
+   ],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [
+    "01 Jan 1969"
+   ],
+   "nationalities": [
+    "Yemen"
+   ],
+   "countries": [
+    "Iran"
+   ],
+   "programs": [
+    "SDGT"
+   ]
+  },
+  {
+   "entry_id": "53134",
+   "entry_type": "organisation",
+   "name": "HONG KONG HESHUN TRANSPORTATION TRADING LIMITED",
+   "aliases": [
+    "HONG KONG HESHUN TRANS TRDG"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "76399342",
+     "country": "Hong Kong"
+    },
+    {
+     "type": "OTHER",
+     "value": "3386263",
+     "country": "Hong Kong"
+    },
+    {
+     "type": "NATIONAL_ID",
+     "value": "IMO 0017707",
+     "country": null
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "China"
+   ],
+   "programs": [
+    "IRAN-EO13902"
+   ]
+  },
+  {
+   "entry_id": "53196",
+   "entry_type": "individual",
+   "name": "Mahasin Mahmud MURTADA",
+   "aliases": [
+    "Mohasen Mahmoud MORTADA"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "NATIONAL_ID",
+     "value": "162928",
+     "country": "Lebanon"
+    },
+    {
+     "type": "PASSPORT",
+     "value": "RL2217666",
+     "country": "Lebanon"
+    }
+   ],
+   "dates_of_birth": [
+    "23 Mar 1971"
+   ],
+   "nationalities": [
+    "Lebanon"
+   ],
+   "countries": [
+    "Lebanon",
+    "Turkey"
+   ],
+   "programs": [
+    "SDGT"
+   ]
+  },
+  {
+   "entry_id": "53681",
+   "entry_type": "organisation",
+   "name": "JOINT STOCK COMPANY GROZNEFTEGAZ",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "1022002543144",
+     "country": "Russia"
+    },
+    {
+     "type": "OTHER",
+     "value": "2020003571",
+     "country": "Russia"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Russia"
+   ],
+   "programs": [
+    "RUSSIA-EO14024"
+   ]
+  },
+  {
+   "entry_id": "53888",
+   "entry_type": "vessel",
+   "name": "GLOBAL RANI",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "IMO",
+     "value": "IMO 9136113",
+     "country": null
+    },
+    {
+     "type": "MMSI",
+     "value": "511101535",
+     "country": null
+    },
+    {
+     "type": "CALL_SIGN",
+     "value": "T8A4955",
+     "country": null
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [],
+   "programs": [
+    "IRAN-EO13902"
+   ]
+  },
+  {
+   "entry_id": "53906",
+   "entry_type": "vessel",
+   "name": "GLOBAL DOMINANCE",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "IMO",
+     "value": "IMO 9672301",
+     "country": null
+    },
+    {
+     "type": "MMSI",
+     "value": "305290000",
+     "country": null
+    },
+    {
+     "type": "CALL_SIGN",
+     "value": "V2YZ5",
+     "country": null
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [],
+   "programs": [
+    "IRAN-EO13902"
+   ]
+  },
+  {
+   "entry_id": "53931",
+   "entry_type": "vessel",
+   "name": "NYANTARA",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "IMO",
+     "value": "IMO 9242120",
+     "country": null
+    },
+    {
+     "type": "MMSI",
+     "value": "352002259",
+     "country": null
+    },
+    {
+     "type": "CALL_SIGN",
+     "value": "3E2243",
+     "country": null
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [],
+   "programs": [
+    "IRAN-EO13902"
+   ]
+  },
+  {
+   "entry_id": "54141",
+   "entry_type": "organisation",
+   "name": "HONG KONG PRIME TRADING CO., LIMITED",
+   "aliases": [
+    "HONG KONG PRIME TRADING CO LTD"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "NATIONAL_ID",
+     "value": "IMO 6484746",
+     "country": null
+    },
+    {
+     "type": "OTHER",
+     "value": "76217946",
+     "country": "Hong Kong"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "China"
+   ],
+   "programs": [
+    "IRAN-EO13902"
+   ]
+  },
+  {
+   "entry_id": "54153",
+   "entry_type": "organisation",
+   "name": "QINGDAO PREMIER TECHNOLOGY CO LTD",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "91370213MA3NWXAG22",
+     "country": "China"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "China"
+   ],
+   "programs": [
+    "NPWMD",
+    "IFSR"
+   ]
+  },
+  {
+   "entry_id": "54195",
+   "entry_type": "organisation",
+   "name": "HUANGDAO INSPECTION AND CERTIFICATION CO., LTD",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "91370211599022395P",
+     "country": "China"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "China"
+   ],
+   "programs": [
+    "IFSR",
+    "SDGT"
+   ]
+  },
+  {
+   "entry_id": "54343",
+   "entry_type": "vessel",
+   "name": "KONGM",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "IMO",
+     "value": "IMO 9256975",
+     "country": null
+    },
+    {
+     "type": "MMSI",
+     "value": "353529000",
+     "country": null
+    },
+    {
+     "type": "CALL_SIGN",
+     "value": "3E5132",
+     "country": null
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [],
+   "programs": [
+    "IRAN-EO13902"
+   ]
+  },
+  {
+   "entry_id": "55405",
+   "entry_type": "individual",
+   "name": "Xueyuan HOU",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "NATIONAL_ID",
+     "value": "320722198611070815",
+     "country": "China"
+    }
+   ],
+   "dates_of_birth": [
+    "07 Nov 1986"
+   ],
+   "nationalities": [
+    "China"
+   ],
+   "countries": [
+    "China"
+   ],
+   "programs": [
+    "IFSR",
+    "NPWMD"
+   ]
+  },
+  {
+   "entry_id": "55444",
+   "entry_type": "organisation",
+   "name": "ROCKET PCB SOLUTION LTD",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "91441900595831304L",
+     "country": "China"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "China"
+   ],
+   "programs": [
+    "IFSR",
+    "NPWMD"
+   ]
+  },
+  {
+   "entry_id": "55467",
+   "entry_type": "organisation",
+   "name": "EVEN SINCERITY LIMITED",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "1970592",
+     "country": "Virgin Islands, British"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Cambodia"
+   ],
+   "programs": [
+    "TCO"
+   ]
+  },
+  {
+   "entry_id": "55469",
+   "entry_type": "organisation",
+   "name": "GIANT VICTORY HOLDINGS LIMITED",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "1930566",
+     "country": "Virgin Islands, British"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Cambodia"
+   ],
+   "programs": [
+    "TCO"
+   ]
+  },
+  {
+   "entry_id": "55554",
+   "entry_type": "organisation",
+   "name": "RETAIN PROSPER LIMITED",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "2022874",
+     "country": "Virgin Islands, British"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Cambodia"
+   ],
+   "programs": [
+    "TCO"
+   ]
+  },
+  {
+   "entry_id": "55949",
+   "entry_type": "individual",
+   "name": "Yanming YANG",
+   "aliases": [],
+   "weak_aliases": [
+    "YANG, Kimi"
+   ],
+   "identifiers": [
+    {
+     "type": "PASSPORT",
+     "value": "N02404035",
+     "country": "Cambodia"
+    },
+    {
+     "type": "PASSPORT",
+     "value": "RV0107373",
+     "country": "Vanuatu"
+    },
+    {
+     "type": "OTHER",
+     "value": "100060",
+     "country": "Palau"
+    }
+   ],
+   "dates_of_birth": [
+    "24 Mar 1991"
+   ],
+   "nationalities": [
+    "Cambodia",
+    "Vanuatu"
+   ],
+   "countries": [
+    "Palau",
+    "Thailand"
+   ],
+   "programs": [
+    "TCO"
+   ]
+  },
+  {
+   "entry_id": "55994",
+   "entry_type": "organisation",
+   "name": "WARPCAPITAL YACHT MANAGEMENT PTE. LTD.",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "NATIONAL_ID",
+     "value": "201900147W",
+     "country": "Singapore"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Singapore"
+   ],
+   "programs": [
+    "TCO"
+   ]
+  },
+  {
+   "entry_id": "56291",
+   "entry_type": "organisation",
+   "name": "ROYAL YAPI INSAAT EMLAK GIDA VE TEKSTIL URUNLERI TURIZM SANAYI DIS TICARET LIMITED SIRKETI",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "962966-0",
+     "country": "Turkey"
+    },
+    {
+     "type": "OTHER",
+     "value": "960442",
+     "country": "Turkey"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Turkey"
+   ],
+   "programs": [
+    "IFSR",
+    "NPWMD"
+   ]
+  },
+  {
+   "entry_id": "56423",
+   "entry_type": "organisation",
+   "name": "LOIRE SHIPPING INC.",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "155688469",
+     "country": "Panama"
+    },
+    {
+     "type": "NATIONAL_ID",
+     "value": "IMO 6137379",
+     "country": null
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Panama"
+   ],
+   "programs": [
+    "SDGT",
+    "IFSR"
+   ]
+  },
+  {
+   "entry_id": "56553",
+   "entry_type": "vessel",
+   "name": "KURDOS III",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "IMO",
+     "value": "IMO 9380570",
+     "country": null
+    },
+    {
+     "type": "MMSI",
+     "value": "511101819",
+     "country": null
+    },
+    {
+     "type": "CALL_SIGN",
+     "value": "T8A5317",
+     "country": null
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [],
+   "programs": [
+    "IRAN-EO13902"
+   ]
+  },
+  {
+   "entry_id": "56588",
+   "entry_type": "vessel",
+   "name": "LATTAFA",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "IMO",
+     "value": "IMO 9245794",
+     "country": null
+    },
+    {
+     "type": "CALL_SIGN",
+     "value": "3E2298",
+     "country": null
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [],
+   "programs": [
+    "VENEZUELA-EO13850"
+   ]
+  },
+  {
+   "entry_id": "56651",
+   "entry_type": "individual",
+   "name": "Erica Patricia MALPICA HURTADO",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "28331171",
+     "country": "Venezuela"
+    }
+   ],
+   "dates_of_birth": [
+    "14 Jun 2001"
+   ],
+   "nationalities": [
+    "Venezuela"
+   ],
+   "countries": [
+    "Venezuela"
+   ],
+   "programs": [
+    "VENEZUELA-EO13850"
+   ]
+  },
+  {
+   "entry_id": "56904",
+   "entry_type": "individual",
+   "name": "Eskandar MOMENI KALAGARI",
+   "aliases": [
+    "Eskandar MOMENI"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "PASSPORT",
+     "value": "D10016001",
+     "country": "Iran"
+    }
+   ],
+   "dates_of_birth": [
+    "15 Jan 1963"
+   ],
+   "nationalities": [
+    "Iran"
+   ],
+   "countries": [
+    "Iran"
+   ],
+   "programs": [
+    "IRAN-HR"
+   ]
+  },
+  {
+   "entry_id": "56917",
+   "entry_type": "vessel",
+   "name": "OCEAN GUARDIAN",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "IMO",
+     "value": "IMO 9267948",
+     "country": null
+    },
+    {
+     "type": "MMSI",
+     "value": "352004037",
+     "country": null
+    },
+    {
+     "type": "CALL_SIGN",
+     "value": "3E5421",
+     "country": null
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [],
+   "programs": [
+    "IRAN-EO13846"
+   ]
+  },
+  {
+   "entry_id": "56927",
+   "entry_type": "vessel",
+   "name": "BENEDICT",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "MMSI",
+     "value": "613003709",
+     "country": null
+    },
+    {
+     "type": "IMO",
+     "value": "IMO 9293155",
+     "country": null
+    },
+    {
+     "type": "CALL_SIGN",
+     "value": "TJMC128",
+     "country": null
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [],
+   "programs": [
+    "IRAN-EO13846"
+   ]
+  },
+  {
+   "entry_id": "56936",
+   "entry_type": "individual",
+   "name": "Mohamed Nayef MAGED",
+   "aliases": [
+    "Mohamed MAJED"
+   ],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [
+    "30 Sep 1989"
+   ],
+   "nationalities": [
+    "Lebanon"
+   ],
+   "countries": [
+    "Lebanon"
+   ],
+   "programs": [
+    "SDGT"
+   ]
+  },
+  {
+   "entry_id": "57135",
+   "entry_type": "organisation",
+   "name": "MIHIR SHIPPING INC.",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "135674",
+     "country": "Marshall Islands"
+    },
+    {
+     "type": "NATIONAL_ID",
+     "value": "IMO 0404616",
+     "country": null
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Marshall Islands"
+   ],
+   "programs": [
+    "IRAN-EO13902"
+   ]
+  },
+  {
+   "entry_id": "57228",
+   "entry_type": "individual",
+   "name": "Maya BOUSTANY",
+   "aliases": [
+    "Maya AL-BUSTANI",
+    "Maya Shadi AL-BUSTANI"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "NATIONAL_ID",
+     "value": "000043641387",
+     "country": "Lebanon"
+    },
+    {
+     "type": "PASSPORT",
+     "value": "LR2067544",
+     "country": "Lebanon"
+    }
+   ],
+   "dates_of_birth": [
+    "09 Sep 1981"
+   ],
+   "nationalities": [
+    "Lebanon"
+   ],
+   "countries": [
+    "Lebanon",
+    "Qatar"
+   ],
+   "programs": [
+    "SDGT"
+   ]
+  },
+  {
+   "entry_id": "57345",
+   "entry_type": "individual",
+   "name": "Satishkumar Hareshbhai SUTARIA",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "PASSPORT",
+     "value": "T2342443",
+     "country": "India"
+    }
+   ],
+   "dates_of_birth": [
+    "07 Mar 1989"
+   ],
+   "nationalities": [
+    "India"
+   ],
+   "countries": [
+    "India"
+   ],
+   "programs": [
+    "ILLICIT-DRUGS-EO14059"
+   ]
+  },
+  {
+   "entry_id": "57443",
+   "entry_type": "organisation",
+   "name": "XIFOIDES GROUP LIMITED",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "73211117",
+     "country": "Hong Kong"
+    },
+    {
+     "type": "IMO",
+     "value": "IMO 6244565",
+     "country": null
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "China"
+   ],
+   "programs": [
+    "IRAN-EO13902"
+   ]
+  },
+  {
+   "entry_id": "57705",
+   "entry_type": "vessel",
+   "name": "BRIGHT GOLD",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "IMO",
+     "value": "IMO 9171503",
+     "country": null
+    },
+    {
+     "type": "MMSI",
+     "value": "374670000",
+     "country": null
+    },
+    {
+     "type": "CALL_SIGN",
+     "value": "3EEC9",
+     "country": null
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [],
+   "programs": [
+    "IRAN-EO13902"
+   ]
+  },
+  {
+   "entry_id": "57709",
+   "entry_type": "individual",
+   "name": "Saif Hashim Kamel ABUKISHEK",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "NATIONAL_ID",
+     "value": "905632774",
+     "country": "Palestinian"
+    },
+    {
+     "type": "PASSPORT",
+     "value": "3624406",
+     "country": "Palestinian"
+    }
+   ],
+   "dates_of_birth": [
+    "13 Jun 1981"
+   ],
+   "nationalities": [
+    "Palestinian"
+   ],
+   "countries": [
+    "Spain"
+   ],
+   "programs": [
+    "SDGT"
+   ]
+  },
+  {
+   "entry_id": "57922",
+   "entry_type": "individual",
+   "name": "Tariq Hussain Muhammad MADANI",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [],
+   "dates_of_birth": [
+    "15 May 1971"
+   ],
+   "nationalities": [
+    "Sudan"
+   ],
+   "countries": [
+    "Sudan"
+   ],
+   "programs": [
+    "SUDAN-EO14098"
+   ]
+  },
+  {
+   "entry_id": "58013",
+   "entry_type": "individual",
+   "name": "Gerardo BOTELLO ROZALEZ",
+   "aliases": [
+    "Gerardo BOTELLO ROSALES"
+   ],
+   "weak_aliases": [
+    "El Cachas"
+   ],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "BORG770203HMNTZR05",
+     "country": "Mexico"
+    }
+   ],
+   "dates_of_birth": [
+    "03 Feb 1977"
+   ],
+   "nationalities": [
+    "Mexico"
+   ],
+   "countries": [
+    "Mexico"
+   ],
+   "programs": [
+    "ILLICIT-DRUGS-EO14059",
+    "SDGT"
+   ]
+  },
+  {
+   "entry_id": "58264",
+   "entry_type": "organisation",
+   "name": "ENIGMA COMMUNITY, S. DE R.L. DE C.V.",
+   "aliases": [
+    "ENIGMA COMMUNITY, SOCIEDAD DE RESPONSABILIDAD LIMITADA DE CAPITAL VARIABLE"
+   ],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "N-2024061521",
+     "country": "Mexico"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Mexico"
+   ],
+   "programs": [
+    "SDGT",
+    "TCO"
+   ]
+  },
+  {
+   "entry_id": "58668",
+   "entry_type": "organisation",
+   "name": "WIN APPLAUSE LIMITED",
+   "aliases": [],
+   "weak_aliases": [],
+   "identifiers": [
+    {
+     "type": "OTHER",
+     "value": "2039220",
+     "country": "Virgin Islands, British"
+    }
+   ],
+   "dates_of_birth": [],
+   "nationalities": [],
+   "countries": [
+    "Virgin Islands, British"
+   ],
+   "programs": [
+    "TCO"
+   ]
+  }
+ ]
+}

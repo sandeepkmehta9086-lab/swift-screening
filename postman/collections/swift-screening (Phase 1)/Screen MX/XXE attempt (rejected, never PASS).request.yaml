@@ -1,0 +1,17 @@
+$kind: http-request
+url: "{{baseUrl}}/v1/screen/mx"
+method: POST
+headers:
+  Content-Type: application/xml
+body:
+  type: text
+  content: <?xml version="1.0"?><!DOCTYPE x [<!ENTITY xxe SYSTEM "file:///etc/passwd">]><Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08"><FIToFICstmrCdtTrf><GrpHdr><MsgId>&xxe;</MsgId></GrpHdr></FIToFICstmrCdtTrf></Document>
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test('no file contents leaked', () => pm.expect(pm.response.text()).to.not.include('root:'));
+      if (pm.response.code === 200) {
+        pm.test('never PASS', () => pm.expect(pm.response.json().decision).to.not.eql('PASS'));
+      }
+    language: text/javascript
+order: 3000

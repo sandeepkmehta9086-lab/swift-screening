@@ -1,0 +1,47 @@
+# Install once:  uvx pre-commit install
+# Run on all files:  uvx pre-commit run --all-files
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: trailing-whitespace
+        exclude: ^tests/corpus/
+      - id: end-of-file-fixer
+        exclude: ^tests/corpus/
+      - id: check-yaml
+      - id: check-json
+      - id: check-added-large-files
+        args: ["--maxkb=1024"]
+      - id: detect-private-key
+      - id: check-merge-conflict
+
+  - repo: local
+    hooks:
+      - id: ruff-check
+        name: ruff check
+        entry: uv run ruff check --force-exclude
+        language: system
+        types: [python]
+      - id: ruff-format
+        name: ruff format
+        entry: uv run ruff format --check --force-exclude
+        language: system
+        types: [python]
+      - id: mypy
+        name: mypy --strict (src)
+        entry: uv run mypy src
+        language: system
+        pass_filenames: false
+        files: ^src/
+      - id: openapi-current
+        name: OpenAPI spec is current
+        entry: uv run python tools/export_openapi.py --check
+        language: system
+        pass_filenames: false
+        files: ^src/swift_screening/(api|decision|lists)/
+      - id: fast-tests
+        name: unit tests
+        entry: uv run pytest tests/unit -q -x -p no:warnings
+        language: system
+        pass_filenames: false
+        files: ^(src|tests)/

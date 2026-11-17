@@ -1,0 +1,22 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with: {python-version: "3.12"}
+      - run: uv sync
+      - name: Lint
+        run: uv run ruff check src tests tools && uv run ruff format --check src tests tools
+      - name: Type check
+        run: uv run mypy src
+      - name: Unit, integration, contract, property
+        run: uv run pytest --ignore=tests/perf --ignore=tests/regression --cov=swift_screening --cov-fail-under=90
+      - name: Frozen regression gate (recall must stay 100%)
+        run: uv run pytest tests/regression -v
+      - name: Performance gate (p95 < 150 ms @ 50k entries)
+        run: uv run pytest tests/perf -m perf -s
+      - name: Security audit of dependencies
+        run: uvx pip-audit

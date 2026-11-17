@@ -1,0 +1,7 @@
+# Matching logic, thresholds and the frozen regression suite need governance-group review
+# (see GOVERNANCE.md). Replace the team handle with your organisation's group.
+/tests/regression/          @swift-screening/governance
+/src/swift_screening/matching/  @swift-screening/governance
+/src/swift_screening/decision/  @swift-screening/governance
+/config/                    @swift-screening/governance
+/fixtures/lists/            @swift-screening/governance

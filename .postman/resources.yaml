@@ -1,0 +1,13 @@
+# Use this workspace to collaborate
+workspace:
+  id: 9077331b-0800-4ab8-8fd4-f1faa605c1c4
+
+localResources:
+  specs:
+    - ../openapi/openapi.yaml
+
+# Each entry here maps a local resource to one or more corresponding objects in Postman Cloud
+
+cloudResources:
+  collections:
+    ../postman/collections/swift-screening (Phase 1): 17d10c56-90ad-47d9-a0e0-a06c59d8e571

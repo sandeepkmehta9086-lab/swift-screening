@@ -1,0 +1,78 @@
+# FROZEN REGRESSION SUITE - known true hits that must never be missed.
+#
+# Rules (Agent.md section 0 / 6):
+#   * Cases may be ADDED. They may never be removed, weakened or skipped to make a build pass.
+#   * Changes to this file require approval from the governance group (see CODEOWNERS).
+#   * Recall on this file must be 100%: every case must produce a decision >= min_decision
+#     AND a hit on expect_entry.
+#
+# All names are from the fictional fixture lists (fixtures/lists). No real persons.
+#
+# carrier: how the value is put into a message
+#   mt103_59      MT103 field 59 (beneficiary name line)
+#   mt103_50k     MT103 field 50K (ordering customer)
+#   mt103_59_raw  MT103 field 59 raw content (multi-line, use \n)
+#   mt103_70      MT103 field 70 remittance text
+#   mt103_72      MT103 field 72 sender-to-receiver text
+#   mt202_58a     MT202 field 58A BIC
+#   mt202_56a     MT202 field 56A BIC
+#   mt202cov_b59  MT202COV sequence B beneficiary
+#   pacs008_cdtr  pacs.008 Cdtr/Nm
+#   pacs008_ultmtcdtr pacs.008 UltmtCdtr/Nm
+#   pacs008_ustrd pacs.008 RmtInf/Ustrd
+#   pacs009_cov_cdtr pacs.009 COV underlying creditor
+#   entity        /v1/screen/entity name
+
+cases:
+  - {id: R-001, scenario: C.1, carrier: mt103_59, value: "VLADIMIR SERGEYEVICH KORNILOV", expect_entry: FX-0002, min_decision: BLOCK}
+  - {id: R-002, scenario: C.2, carrier: mt103_59, value: "kornilov, vladimir sergeyevich", expect_entry: FX-0002, min_decision: REVIEW}
+  - {id: R-003, scenario: C.3, carrier: pacs008_cdtr, value: "Jöhann Friedrich Müller-Brandt", expect_entry: FX-0008, min_decision: REVIEW}
+  - {id: R-004, scenario: C.3, carrier: mt103_59, value: "JOHANN FRIEDRICH MUELLER BRANDT", expect_entry: FX-0008, min_decision: REVIEW}
+  - {id: R-005, scenario: C.4, carrier: mt103_59, value: "VLADIMIR SERGEYEVICH KORNILVO", expect_entry: FX-0002, min_decision: REVIEW}
+  - {id: R-006, scenario: C.4, carrier: mt103_59, value: "NATALIA IGOREVNA VORNOTSOVA", expect_entry: FX-0010, min_decision: REVIEW}
+  - {id: R-007, scenario: C.5, carrier: mt103_59, value: "SONG KIM CHOL", expect_entry: FX-0007, min_decision: REVIEW}
+  - {id: R-008, scenario: C.6, carrier: mt103_59, value: "VLADIMIR KORNILOV", expect_entry: FX-0002, min_decision: REVIEW}
+  - {id: R-009, scenario: C.6, carrier: mt103_59, value: "HUSSEIN IBRAHIM ALI MANSOUR", expect_entry: FX-0006, min_decision: REVIEW}
+  - {id: R-010, scenario: C.7, carrier: mt103_59, value: "M. AL-RASHID", expect_entry: FX-0001, min_decision: REVIEW}
+  - {id: R-011, scenario: C.8, carrier: mt103_59, value: "SHEIKH HAJI MOHAMMED KHALID AL RASHID", expect_entry: FX-0001, min_decision: REVIEW}
+  - {id: R-012, scenario: C.9, carrier: mt103_59, value: "ABDEL RAHMAN YOUSSEF HADDAD", expect_entry: FX-0005, min_decision: REVIEW}
+  - {id: R-013, scenario: C.9, carrier: mt103_59, value: "ABDULRAHMAN YUSUF HADDAD", expect_entry: FX-0005, min_decision: REVIEW}
+  - {id: R-014, scenario: C.9, carrier: mt103_59, value: "USAMA FARIS IBN TALAL", expect_entry: FX-0009, min_decision: REVIEW}
+  - {id: R-015, scenario: C.10, carrier: mt103_59, value: "MUHAMMAD KHALED AL RASHEED", expect_entry: FX-0001, min_decision: REVIEW}
+  - {id: R-016, scenario: C.10, carrier: mt103_59, value: "EVGENII PAVLOVICH DRAGUNOV", expect_entry: FX-0003, min_decision: REVIEW}
+  - {id: R-017, scenario: C.11, carrier: pacs008_cdtr, value: "Владимир Корнилов", expect_entry: FX-0002, min_decision: REVIEW}
+  - {id: R-018, scenario: C.11, carrier: pacs008_cdtr, value: "محمد خالد الرشيد", expect_entry: FX-0001, min_decision: REVIEW}
+  - {id: R-019, scenario: C.11, carrier: pacs008_cdtr, value: "محمد الرشيد", expect_entry: FX-0001, min_decision: REVIEW}
+  - {id: R-020, scenario: C.11, carrier: pacs008_cdtr, value: "李强明", expect_entry: FX-0004, min_decision: REVIEW}
+  - {id: R-021, scenario: C.12, carrier: mt103_59, value: "ABU KHALID AL-RASHIDI", expect_entry: FX-0001, min_decision: REVIEW}
+  - {id: R-022, scenario: C.12, carrier: mt103_59, value: "ZIH GROUP", expect_entry: FX-1001, min_decision: REVIEW}
+  - {id: R-023, scenario: C.13, carrier: mt103_59, value: "ZARKHOV INDUSTRIAL HOLDINGS LIMITED", expect_entry: FX-1001, min_decision: REVIEW}
+  - {id: R-024, scenario: C.13, carrier: mt103_59, value: "KAVKAZ PRECISION MACHINERY OJSC", expect_entry: FX-1008, min_decision: REVIEW}
+  - {id: R-025, scenario: C.14, carrier: mt103_59, value: "GOLDEN CRESCENT GENERAL TRADING F", expect_entry: FX-1003, min_decision: REVIEW}
+  - {id: R-026, scenario: C.15, carrier: mt103_59_raw, value: "/GB82WEST12345698765432\nVLADIMIR SERGEYEVICH\nKORNILOV\nLONDON", expect_entry: FX-0002, min_decision: REVIEW}
+  - {id: R-027, scenario: C.15, carrier: mt103_59_raw, value: "/GB82WEST12345698765432\nGOLDEN CRESCENT GENERAL TRADING F\nZE\nDUBAI", expect_entry: FX-1003, min_decision: REVIEW}
+  - {id: R-028, scenario: C.16, carrier: mt103_70, value: "INV 3321 KAVKAZ PRECISION\nMACHINERY SPARE PARTS", expect_entry: FX-1008, min_decision: REVIEW}
+  - {id: R-029, scenario: C.16, carrier: pacs008_ustrd, value: "Payment for consulting, Natalia Vorontsova, March", expect_entry: FX-0010, min_decision: REVIEW}
+  - {id: R-030, scenario: C.17, carrier: mt103_72, value: "/BNF/OBO ZARKHOV INDUSTRIAL HOLDINGS", expect_entry: FX-1001, min_decision: REVIEW}
+  - {id: R-031, scenario: C.17, carrier: mt103_72, value: "/ACC/FOR FURTHER CREDIT TO\n//NATALIA VORONTSOVA", expect_entry: FX-0010, min_decision: REVIEW}
+  - {id: R-032, scenario: C.18, carrier: mt103_59_raw, value: "/GB82WEST12345698765432\nHARBOUR SUPPLIES LTD\nC/O ROSNAVTEK EXPORT\nLONDON", expect_entry: FX-1002, min_decision: REVIEW}
+  - {id: R-033, scenario: C.19, carrier: mt103_59, value: "A.B.C. PETROCHEMICAL TRADING", expect_entry: FX-1004, min_decision: REVIEW}
+  - {id: R-034, scenario: C.19, carrier: mt103_59, value: "LI Q-I-A-N-G-M-I-N-G", expect_entry: FX-0004, min_decision: REVIEW}
+  - {id: R-035, scenario: C.20, carrier: pacs008_cdtr, value: "Vlаdimir Kоrnilоv", expect_entry: FX-0002, min_decision: REVIEW}
+  - {id: R-036, scenario: C.20, carrier: pacs008_cdtr, value: "Ros​nav​tek", expect_entry: FX-1002, min_decision: REVIEW}
+  - {id: R-037, scenario: C.21, carrier: mt103_59, value: "RO SNAVTEK", expect_entry: FX-1002, min_decision: REVIEW}
+  - {id: R-038, scenario: C.21, carrier: mt103_59, value: "ROSNAVTEKOIL", expect_entry: FX-1002, min_decision: REVIEW}
+  - {id: R-039, scenario: C.21, carrier: mt103_59, value: "KIMCHOLSONG", expect_entry: FX-0007, min_decision: REVIEW}
+  - {id: R-040, scenario: C.21, carrier: pacs008_ustrd, value: "payment to ZyxtradeBankofTehran ref 9", expect_entry: FX-1005, min_decision: REVIEW}
+  - {id: R-041, scenario: C.22, carrier: mt103_59, value: "MOKHAMMED KHALID AL-RASHID", expect_entry: FX-0001, min_decision: REVIEW}
+  - {id: R-042, scenario: C.22, carrier: mt103_59, value: "KORNILOFF VLADIMIR", expect_entry: FX-0002, min_decision: REVIEW}
+  - {id: R-043, scenario: A.8, carrier: mt202cov_b59, value: "NATALIA IGOREVNA VORONTSOVA", expect_entry: FX-0010, min_decision: REVIEW}
+  - {id: R-044, scenario: B.3, carrier: pacs008_ultmtcdtr, value: "Osama Faris Bin Talal", expect_entry: FX-0009, min_decision: REVIEW}
+  - {id: R-045, scenario: B.11, carrier: pacs009_cov_cdtr, value: "Kim Chol Song", expect_entry: FX-0007, min_decision: REVIEW}
+  - {id: R-046, scenario: D.1, carrier: mt202_58a, value: "ZYXBIRTH", expect_entry: FX-1005, min_decision: BLOCK}
+  - {id: R-047, scenario: D.2, carrier: mt202_56a, value: "SNCTRUMM123", expect_entry: FX-1006, min_decision: BLOCK}
+  - {id: R-048, scenario: D.8, carrier: entity_passport, value: "P7731942", expect_entry: FX-0002, min_decision: BLOCK}
+  - {id: R-049, scenario: D.8, carrier: entity_lei, value: "5493001KJTIIGC8Y1R12", expect_entry: FX-1008, min_decision: BLOCK}
+  - {id: R-050, scenario: D.10, carrier: mt103_70, value: "FREIGHT MV OCEAN PEARL IMO 9123453", expect_entry: FX-2001, min_decision: BLOCK}
+  - {id: R-051, scenario: G.7, carrier: mt103_59, value: "MOHAMED KALID RASHEED", expect_entry: FX-0001, min_decision: REVIEW}
+  - {id: R-052, scenario: C.12, carrier: pacs008_cdtr, value: "Al Noor Exchange", expect_entry: FX-1009, min_decision: REVIEW}
