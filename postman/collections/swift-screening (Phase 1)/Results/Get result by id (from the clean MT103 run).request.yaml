@@ -1,0 +1,10 @@
+$kind: http-request
+url: "{{baseUrl}}/v1/results/{{screeningId}}"
+method: GET
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test('200', () => pm.response.to.have.status(200));
+      pm.test('same id', () => pm.expect(pm.response.json().screening_id).to.eql(pm.collectionVariables.get('screeningId')));
+    language: text/javascript
+order: 1000

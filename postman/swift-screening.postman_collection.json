@@ -1,0 +1,340 @@
+{
+  "info": {
+    "name": "swift-screening (Phase 1)",
+    "description": "Sample requests for the swift-screening API. Start the server with `uv run swift-screening serve` (or `docker compose up`), import this collection plus the environment file, then run it in order. All watchlist names used here are FICTIONAL fixtures from fixtures/lists.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "auth": {
+    "type": "apikey",
+    "apikey": [
+      { "key": "key", "value": "X-API-Key", "type": "string" },
+      { "key": "value", "value": "{{apiKey}}", "type": "string" },
+      { "key": "in", "value": "header", "type": "string" }
+    ]
+  },
+  "event": [
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "exec": [
+          "pm.test('security headers present', () => {",
+          "  pm.expect(pm.response.headers.get('X-Content-Type-Options')).to.eql('nosniff');",
+          "  pm.expect(pm.response.headers.get('Cache-Control')).to.eql('no-store');",
+          "});"
+        ]
+      }
+    }
+  ],
+  "item": [
+    {
+      "name": "Ops",
+      "item": [
+        {
+          "name": "Health check",
+          "request": { "auth": { "type": "noauth" }, "method": "GET", "url": "{{baseUrl}}/healthz" },
+          "event": [{ "listen": "test", "script": { "exec": [
+            "pm.test('200 ok', () => pm.response.to.have.status(200));",
+            "pm.test('status ok', () => pm.expect(pm.response.json().status).to.eql('ok'));"
+          ] } }]
+        },
+        {
+          "name": "Readiness check",
+          "request": { "auth": { "type": "noauth" }, "method": "GET", "url": "{{baseUrl}}/readyz" },
+          "event": [{ "listen": "test", "script": { "exec": [
+            "pm.test('ready (lists loaded, DB up)', () => {",
+            "  pm.response.to.have.status(200);",
+            "  pm.expect(pm.response.json().ready).to.be.true;",
+            "});"
+          ] } }]
+        },
+        {
+          "name": "Prometheus metrics",
+          "request": { "auth": { "type": "noauth" }, "method": "GET", "url": "{{baseUrl}}/metrics" },
+          "event": [{ "listen": "test", "script": { "exec": [
+            "pm.test('200 text metrics', () => {",
+            "  pm.response.to.have.status(200);",
+            "  pm.expect(pm.response.text()).to.include('# HELP');",
+            "});"
+          ] } }]
+        },
+        {
+          "name": "List status",
+          "request": { "method": "GET", "url": "{{baseUrl}}/v1/lists/status" },
+          "event": [{ "listen": "test", "script": { "exec": [
+            "pm.test('200 array of lists', () => {",
+            "  pm.response.to.have.status(200);",
+            "  pm.expect(pm.response.json()).to.be.an('array');",
+            "});"
+          ] } }]
+        }
+      ]
+    },
+    {
+      "name": "Screen MT",
+      "item": [
+        {
+          "name": "MT103 - clean payment (expect PASS)",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "text/plain" }],
+            "url": "{{baseUrl}}/v1/screen/mt",
+            "body": { "mode": "raw", "raw": "{1:F01BANKGB2LAXXX0000000000}{2:I103DEUTDEFFXXXXN}{3:{108:SYNTH}{121:00000000-0000-0000-0000-000000000007}}{4:\r\n:20:REF985440\r\n:23B:CRED\r\n:32A:261115EUR12500,00\r\n:50F:/DE89370400440532013000\r\n1/Gormerqua Wilni\r\n2/34 Station Street\r\n3/US/NEW YORK\r\n:52A:BANKGB2LXXX\r\n:57A:DEUTDEFFXXX\r\n:59F:/DE89370400440532013000\r\n1/Denmonmon Textiles Ltd\r\n2/59 Mill Lane\r\n3/SG/SINGAPORE\r\n:70:INVOICE 0\r\n:71A:SHA\r\n-}{5:{CHK:123456789ABC}}" }
+          },
+          "event": [{ "listen": "test", "script": { "exec": [
+            "const r = pm.response.json();",
+            "pm.test('200', () => pm.response.to.have.status(200));",
+            "pm.test('decision PASS', () => pm.expect(r.decision).to.eql('PASS'));",
+            "pm.test('has screening_id', () => pm.expect(r.screening_id).to.be.a('string'));",
+            "pm.collectionVariables.set('screeningId', r.screening_id);"
+          ] } }]
+        },
+        {
+          "name": "MT103 - sanctioned beneficiary, spelling variant (expect REVIEW/BLOCK)",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "text/plain" }],
+            "url": "{{baseUrl}}/v1/screen/mt",
+            "body": { "mode": "raw", "raw": "{1:F01BANKGB2LAXXX0000000000}{2:I103DEUTDEFFXXXXN}{3:{108:SYNTH}{121:00000000-0000-0000-0000-000000000008}}{4:\r\n:20:REF985441\r\n:23B:CRED\r\n:32A:261115EUR12500,00\r\n:50F:/DE89370400440532013000\r\n1/Gormerqua Wilni\r\n2/34 Station Street\r\n3/US/NEW YORK\r\n:52A:BANKGB2LXXX\r\n:57A:DEUTDEFFXXX\r\n:59F:/DE89370400440532013000\r\n1/Mohamed Khaled Al Rasheed\r\n2/59 Mill Lane\r\n3/SG/SINGAPORE\r\n:70:INVOICE 1\r\n:71A:SHA\r\n-}{5:{CHK:123456789ABC}}" }
+          },
+          "event": [{ "listen": "test", "script": { "exec": [
+            "const r = pm.response.json();",
+            "pm.test('200', () => pm.response.to.have.status(200));",
+            "pm.test('not PASS', () => pm.expect(r.decision).to.be.oneOf(['REVIEW', 'BLOCK']));",
+            "pm.test('has hits', () => pm.expect(r.hits).to.be.an('array').that.is.not.empty);"
+          ] } }]
+        },
+        {
+          "name": "MT103 - sanctioned BIC in 57A (expect BLOCK)",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "text/plain" }],
+            "url": "{{baseUrl}}/v1/screen/mt",
+            "body": { "mode": "raw", "raw": "{1:F01BANKGB2LAXXX0000000000}{2:I103DEUTDEFFXXXXN}{3:{108:SYNTH}{121:00000000-0000-0000-0000-000000000009}}{4:\r\n:20:REF985442\r\n:23B:CRED\r\n:32A:261115EUR12500,00\r\n:50F:/DE89370400440532013000\r\n1/Gormerqua Wilni\r\n2/34 Station Street\r\n3/US/NEW YORK\r\n:52A:BANKGB2LXXX\r\n:57A:SNCTRUMMXXX\r\n:59F:/DE89370400440532013000\r\n1/Denmonmon Textiles Ltd\r\n2/59 Mill Lane\r\n3/SG/SINGAPORE\r\n:70:INVOICE 2\r\n:71A:SHA\r\n-}{5:{CHK:123456789ABC}}" }
+          },
+          "event": [{ "listen": "test", "script": { "exec": [
+            "const r = pm.response.json();",
+            "pm.test('200', () => pm.response.to.have.status(200));",
+            "pm.test('decision BLOCK', () => pm.expect(r.decision).to.eql('BLOCK'));"
+          ] } }]
+        },
+        {
+          "name": "MT103 - embargoed country in field 70 (expect REVIEW/BLOCK)",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "text/plain" }],
+            "url": "{{baseUrl}}/v1/screen/mt",
+            "body": { "mode": "raw", "raw": "{1:F01BANKGB2LAXXX0000000000}{2:I103DEUTDEFFXXXXN}{3:{108:SYNTH}{121:00000000-0000-0000-0000-000000000010}}{4:\r\n:20:REF985443\r\n:23B:CRED\r\n:32A:261115EUR12500,00\r\n:50F:/DE89370400440532013000\r\n1/Gormerqua Wilni\r\n2/34 Station Street\r\n3/US/NEW YORK\r\n:52A:BANKGB2LXXX\r\n:57A:DEUTDEFFXXX\r\n:59F:/DE89370400440532013000\r\n1/Denmonmon Textiles Ltd\r\n2/59 Mill Lane\r\n3/SG/SINGAPORE\r\n:70:GOODS SHIPPED TO TEHRAN IRAN\r\n:71A:SHA\r\n-}{5:{CHK:123456789ABC}}" }
+          },
+          "event": [{ "listen": "test", "script": { "exec": [
+            "const r = pm.response.json();",
+            "pm.test('200', () => pm.response.to.have.status(200));",
+            "pm.test('not PASS', () => pm.expect(r.decision).to.be.oneOf(['REVIEW', 'BLOCK']));"
+          ] } }]
+        },
+        {
+          "name": "MT103 - missing :20: (fail closed, never PASS)",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "text/plain" }],
+            "url": "{{baseUrl}}/v1/screen/mt",
+            "body": { "mode": "raw", "raw": "{1:F01BANKGB2LAXXX0000000000}{2:I103DEUTDEFFXXXXN}{4:\r\n:23B:CRED\r\n:32A:261115EUR12500,00\r\n:50K:/DE89370400440532013000\r\nGormerqua Wilni\r\n:59:/DE89370400440532013000\r\nDenmonmon Textiles Ltd\r\n:71A:SHA\r\n-}" }
+          },
+          "event": [{ "listen": "test", "script": { "exec": [
+            "const r = pm.response.json();",
+            "pm.test('200', () => pm.response.to.have.status(200));",
+            "pm.test('never PASS on parse error', () => pm.expect(r.decision).to.not.eql('PASS'));"
+          ] } }]
+        }
+      ]
+    },
+    {
+      "name": "Screen MX",
+      "item": [
+        {
+          "name": "pacs.008 - clean payment (expect PASS)",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/xml" }],
+            "url": "{{baseUrl}}/v1/screen/mx",
+            "body": { "mode": "raw", "raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><Envelope><AppHdr xmlns=\"urn:iso:std:iso:20022:tech:xsd:head.001.001.02\"><Fr><FIId><FinInstnId><BICFI>BANKGB2LXXX</BICFI></FinInstnId></FIId></Fr><To><FIId><FinInstnId><BICFI>DEUTDEFFXXX</BICFI></FinInstnId></FIId></To><BizMsgIdr>B1</BizMsgIdr><MsgDefIdr>pacs.008.001.08</MsgDefIdr><CreDt>2026-11-15T10:00:00Z</CreDt></AppHdr><Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08\"><FIToFICstmrCdtTrf><GrpHdr><MsgId>MSG0</MsgId><CreDtTm>2026-11-15T10:00:00</CreDtTm><NbOfTxs>1</NbOfTxs><SttlmInf><SttlmMtd>INDA</SttlmMtd></SttlmInf></GrpHdr><CdtTrfTxInf><PmtId><InstrId>I0</InstrId><EndToEndId>E2E0</EndToEndId><UETR>00000000-0000-0000-0000-000000000001</UETR></PmtId><IntrBkSttlmAmt Ccy=\"EUR\">1500.00</IntrBkSttlmAmt><IntrBkSttlmDt>2026-11-15</IntrBkSttlmDt><ChrgBr>SHAR</ChrgBr><InstgAgt><FinInstnId><BICFI>BANKGB2LXXX</BICFI></FinInstnId></InstgAgt><InstdAgt><FinInstnId><BICFI>DEUTDEFFXXX</BICFI></FinInstnId></InstdAgt><Dbtr><Nm>Gormerqua Wilni</Nm><PstlAdr><StrtNm>34 Station Street</StrtNm><TwnNm>NEW YORK</TwnNm><Ctry>US</Ctry></PstlAdr></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><DbtrAgt><FinInstnId><BICFI>BANKGB2LXXX</BICFI></FinInstnId></DbtrAgt><CdtrAgt><FinInstnId><BICFI>DEUTDEFFXXX</BICFI></FinInstnId></CdtrAgt><Cdtr><Nm>Denmonmon Textiles Ltd</Nm><PstlAdr><StrtNm>59 Mill Lane</StrtNm><TwnNm>SINGAPORE</TwnNm><Ctry>SG</Ctry></PstlAdr></Cdtr><CdtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></CdtrAcct><RmtInf><Ustrd>Invoice 0</Ustrd></RmtInf></CdtTrfTxInf></FIToFICstmrCdtTrf></Document></Envelope>" }
+          },
+          "event": [{ "listen": "test", "script": { "exec": [
+            "const r = pm.response.json();",
+            "pm.test('200', () => pm.response.to.have.status(200));",
+            "pm.test('decision PASS', () => pm.expect(r.decision).to.eql('PASS'));"
+          ] } }]
+        },
+        {
+          "name": "pacs.008 - sanctioned name hidden in Ustrd (expect REVIEW/BLOCK)",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/xml" }],
+            "url": "{{baseUrl}}/v1/screen/mx",
+            "body": { "mode": "raw", "raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><Envelope><AppHdr xmlns=\"urn:iso:std:iso:20022:tech:xsd:head.001.001.02\"><Fr><FIId><FinInstnId><BICFI>BANKGB2LXXX</BICFI></FinInstnId></FIId></Fr><To><FIId><FinInstnId><BICFI>DEUTDEFFXXX</BICFI></FinInstnId></FIId></To><BizMsgIdr>B2</BizMsgIdr><MsgDefIdr>pacs.008.001.08</MsgDefIdr><CreDt>2026-11-15T10:00:00Z</CreDt></AppHdr><Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08\"><FIToFICstmrCdtTrf><GrpHdr><MsgId>MSG1</MsgId><CreDtTm>2026-11-15T10:00:00</CreDtTm><NbOfTxs>1</NbOfTxs><SttlmInf><SttlmMtd>INDA</SttlmMtd></SttlmInf></GrpHdr><CdtTrfTxInf><PmtId><InstrId>I1</InstrId><EndToEndId>E2E1</EndToEndId><UETR>00000000-0000-0000-0000-000000000002</UETR></PmtId><IntrBkSttlmAmt Ccy=\"EUR\">1500.00</IntrBkSttlmAmt><IntrBkSttlmDt>2026-11-15</IntrBkSttlmDt><ChrgBr>SHAR</ChrgBr><InstgAgt><FinInstnId><BICFI>BANKGB2LXXX</BICFI></FinInstnId></InstgAgt><InstdAgt><FinInstnId><BICFI>DEUTDEFFXXX</BICFI></FinInstnId></InstdAgt><Dbtr><Nm>Gormerqua Wilni</Nm><PstlAdr><StrtNm>34 Station Street</StrtNm><TwnNm>NEW YORK</TwnNm><Ctry>US</Ctry></PstlAdr></Dbtr><DbtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></DbtrAcct><DbtrAgt><FinInstnId><BICFI>BANKGB2LXXX</BICFI></FinInstnId></DbtrAgt><CdtrAgt><FinInstnId><BICFI>DEUTDEFFXXX</BICFI></FinInstnId></CdtrAgt><Cdtr><Nm>Denmonmon Textiles Ltd</Nm><PstlAdr><StrtNm>59 Mill Lane</StrtNm><TwnNm>SINGAPORE</TwnNm><Ctry>SG</Ctry></PstlAdr></Cdtr><CdtrAcct><Id><IBAN>DE89370400440532013000</IBAN></Id></CdtrAcct><RmtInf><Ustrd>On behalf of Vladimir Sergeyevich Kornilov</Ustrd></RmtInf></CdtTrfTxInf></FIToFICstmrCdtTrf></Document></Envelope>" }
+          },
+          "event": [{ "listen": "test", "script": { "exec": [
+            "const r = pm.response.json();",
+            "pm.test('200', () => pm.response.to.have.status(200));",
+            "pm.test('not PASS', () => pm.expect(r.decision).to.be.oneOf(['REVIEW', 'BLOCK']));"
+          ] } }]
+        },
+        {
+          "name": "XXE attempt (rejected, never PASS)",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/xml" }],
+            "url": "{{baseUrl}}/v1/screen/mx",
+            "body": { "mode": "raw", "raw": "<?xml version=\"1.0\"?><!DOCTYPE x [<!ENTITY xxe SYSTEM \"file:///etc/passwd\">]><Document xmlns=\"urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08\"><FIToFICstmrCdtTrf><GrpHdr><MsgId>&xxe;</MsgId></GrpHdr></FIToFICstmrCdtTrf></Document>" }
+          },
+          "event": [{ "listen": "test", "script": { "exec": [
+            "pm.test('no file contents leaked', () => pm.expect(pm.response.text()).to.not.include('root:'));",
+            "if (pm.response.code === 200) {",
+            "  pm.test('never PASS', () => pm.expect(pm.response.json().decision).to.not.eql('PASS'));",
+            "}"
+          ] } }]
+        }
+      ]
+    },
+    {
+      "name": "Screen entity",
+      "item": [
+        {
+          "name": "Entity - sanctioned individual, Cyrillic alias (expect REVIEW/BLOCK)",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/v1/screen/entity",
+            "body": { "mode": "raw", "raw": "{\n  \"name\": \"Владимир Сергеевич Корнилов\",\n  \"country\": \"RU\",\n  \"date_of_birth\": \"1964-09-02\",\n  \"entity_type\": \"individual\"\n}" }
+          },
+          "event": [{ "listen": "test", "script": { "exec": [
+            "const r = pm.response.json();",
+            "pm.test('200', () => pm.response.to.have.status(200));",
+            "pm.test('not PASS', () => pm.expect(r.decision).to.be.oneOf(['REVIEW', 'BLOCK']));"
+          ] } }]
+        },
+        {
+          "name": "Entity - passport identifier match (expect REVIEW/BLOCK)",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/v1/screen/entity",
+            "body": { "mode": "raw", "raw": "{\n  \"name\": \"V. Kornilov\",\n  \"entity_type\": \"individual\",\n  \"identifiers\": [{ \"type\": \"PASSPORT\", \"value\": \"P7731942\", \"country\": \"RU\" }]\n}" }
+          },
+          "event": [{ "listen": "test", "script": { "exec": [
+            "const r = pm.response.json();",
+            "pm.test('200', () => pm.response.to.have.status(200));",
+            "pm.test('not PASS', () => pm.expect(r.decision).to.be.oneOf(['REVIEW', 'BLOCK']));"
+          ] } }]
+        },
+        {
+          "name": "Entity - clean name (expect PASS)",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/v1/screen/entity",
+            "body": { "mode": "raw", "raw": "{\n  \"name\": \"Denmonmon Textiles Ltd\",\n  \"country\": \"SG\",\n  \"entity_type\": \"organisation\"\n}" }
+          },
+          "event": [{ "listen": "test", "script": { "exec": [
+            "pm.test('200', () => pm.response.to.have.status(200));",
+            "pm.test('decision PASS', () => pm.expect(pm.response.json().decision).to.eql('PASS'));"
+          ] } }]
+        },
+        {
+          "name": "Entity - empty name (422)",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/v1/screen/entity",
+            "body": { "mode": "raw", "raw": "{ \"name\": \"\" }" }
+          },
+          "event": [{ "listen": "test", "script": { "exec": [
+            "pm.test('422', () => pm.response.to.have.status(422));"
+          ] } }]
+        }
+      ]
+    },
+    {
+      "name": "Results",
+      "item": [
+        {
+          "name": "Get result by id (from the clean MT103 run)",
+          "request": { "method": "GET", "url": "{{baseUrl}}/v1/results/{{screeningId}}" },
+          "event": [{ "listen": "test", "script": { "exec": [
+            "pm.test('200', () => pm.response.to.have.status(200));",
+            "pm.test('same id', () => pm.expect(pm.response.json().screening_id).to.eql(pm.collectionVariables.get('screeningId')));"
+          ] } }]
+        },
+        {
+          "name": "Get unknown result (404)",
+          "request": { "method": "GET", "url": "{{baseUrl}}/v1/results/scr_does_not_exist" },
+          "event": [{ "listen": "test", "script": { "exec": [
+            "pm.test('404', () => pm.response.to.have.status(404));"
+          ] } }]
+        }
+      ]
+    },
+    {
+      "name": "Negative / security",
+      "item": [
+        {
+          "name": "Missing API key (401)",
+          "request": { "auth": { "type": "noauth" }, "method": "GET", "url": "{{baseUrl}}/v1/lists/status" },
+          "event": [{ "listen": "test", "script": { "exec": [
+            "pm.test('401', () => pm.response.to.have.status(401));"
+          ] } }]
+        },
+        {
+          "name": "Invalid API key (401)",
+          "request": {
+            "auth": { "type": "noauth" },
+            "method": "GET",
+            "header": [{ "key": "X-API-Key", "value": "wrong-key" }],
+            "url": "{{baseUrl}}/v1/lists/status"
+          },
+          "event": [{ "listen": "test", "script": { "exec": [
+            "pm.test('401', () => pm.response.to.have.status(401));"
+          ] } }]
+        },
+        {
+          "name": "Bearer token auth also works (200)",
+          "request": {
+            "auth": { "type": "bearer", "bearer": [{ "key": "token", "value": "{{apiKey}}", "type": "string" }] },
+            "method": "GET",
+            "url": "{{baseUrl}}/v1/lists/status"
+          },
+          "event": [{ "listen": "test", "script": { "exec": [
+            "pm.test('200', () => pm.response.to.have.status(200));"
+          ] } }]
+        },
+        {
+          "name": "Wrong content type (415)",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/v1/screen/mt",
+            "body": { "mode": "raw", "raw": "{}" }
+          },
+          "event": [{ "listen": "test", "script": { "exec": [
+            "pm.test('415', () => pm.response.to.have.status(415));"
+          ] } }]
+        },
+        {
+          "name": "Empty body (422)",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "text/plain" }],
+            "url": "{{baseUrl}}/v1/screen/mt",
+            "body": { "mode": "raw", "raw": "   " }
+          },
+          "event": [{ "listen": "test", "script": { "exec": [
+            "pm.test('422', () => pm.response.to.have.status(422));"
+          ] } }]
+        }
+      ]
+    }
+  ],
+  "variable": [
+    { "key": "screeningId", "value": "" }
+  ]
+}

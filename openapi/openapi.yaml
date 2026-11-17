@@ -1,0 +1,615 @@
+openapi: 3.1.0
+info:
+  title: SWIFT Screening Service
+  description: Decision-support service. Results do not replace the deploying institution's
+    compliance judgment; deployers remain responsible for their sanctions obligations.
+  version: 0.1.0
+paths:
+  /v1/screen/mt:
+    post:
+      tags:
+      - screening
+      summary: Screen Mt
+      operationId: screen_mt_v1_screen_mt_post
+      parameters:
+      - name: x-api-key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ScreeningResult'
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /v1/screen/mx:
+    post:
+      tags:
+      - screening
+      summary: Screen Mx
+      operationId: screen_mx_v1_screen_mx_post
+      parameters:
+      - name: x-api-key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ScreeningResult'
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /v1/screen/entity:
+    post:
+      tags:
+      - screening
+      summary: Screen Entity
+      operationId: screen_entity_v1_screen_entity_post
+      parameters:
+      - name: x-api-key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ScreeningResult'
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /v1/results/{screening_id}:
+    get:
+      tags:
+      - screening
+      summary: Get Result
+      operationId: get_result_v1_results__screening_id__get
+      parameters:
+      - name: screening_id
+        in: path
+        required: true
+        schema:
+          type: string
+          title: Screening Id
+      - name: x-api-key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ScreeningResult'
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /v1/lists/status:
+    get:
+      tags:
+      - lists
+      summary: Lists Status
+      operationId: lists_status_v1_lists_status_get
+      parameters:
+      - name: x-api-key
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: X-Api-Key
+      - name: authorization
+        in: header
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Authorization
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/ListStatus'
+                title: Response Lists Status V1 Lists Status Get
+        '422':
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /healthz:
+    get:
+      tags:
+      - ops
+      summary: Healthz
+      operationId: healthz_healthz_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                additionalProperties:
+                  type: string
+                type: object
+                title: Response Healthz Healthz Get
+  /readyz:
+    get:
+      tags:
+      - ops
+      summary: Readyz
+      operationId: readyz_readyz_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                additionalProperties: true
+                type: object
+                title: Response Readyz Readyz Get
+  /metrics:
+    get:
+      tags:
+      - ops
+      summary: Metrics
+      operationId: metrics_metrics_get
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema: {}
+components:
+  schemas:
+    Decision:
+      type: string
+      enum:
+      - PASS
+      - REVIEW
+      - BLOCK
+      title: Decision
+    GeoFinding:
+      properties:
+        rule_id:
+          type: string
+          title: Rule Id
+        kind:
+          type: string
+          title: Kind
+        field:
+          type: string
+          title: Field
+        input_value:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Input Value
+        matched:
+          type: string
+          title: Matched
+        method:
+          type: string
+          title: Method
+        action:
+          type: string
+          title: Action
+        explanation:
+          type: string
+          title: Explanation
+          default: ''
+      type: object
+      required:
+      - rule_id
+      - kind
+      - field
+      - input_value
+      - matched
+      - method
+      - action
+      title: GeoFinding
+    HTTPValidationError:
+      properties:
+        detail:
+          items:
+            $ref: '#/components/schemas/ValidationError'
+          type: array
+          title: Detail
+      type: object
+      title: HTTPValidationError
+    Hit:
+      properties:
+        hit_id:
+          type: string
+          title: Hit Id
+        field:
+          type: string
+          title: Field
+        role:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Role
+        input_value:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Input Value
+        matched_entry:
+          $ref: '#/components/schemas/MatchedEntry'
+        match_type:
+          items:
+            type: string
+          type: array
+          title: Match Type
+        candidate_sources:
+          items:
+            type: string
+          type: array
+          title: Candidate Sources
+        score:
+          anyOf:
+          - type: number
+          - type: 'null'
+          title: Score
+        recall_floor_protected:
+          type: boolean
+          title: Recall Floor Protected
+          default: true
+        action:
+          type: string
+          title: Action
+        explanation:
+          type: string
+          title: Explanation
+          default: ''
+      type: object
+      required:
+      - hit_id
+      - field
+      - input_value
+      - matched_entry
+      - match_type
+      - candidate_sources
+      - score
+      - action
+      title: Hit
+    ListStatus:
+      properties:
+        list_id:
+          type: string
+          title: List Id
+        list_type:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: List Type
+        version:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Version
+        published_at:
+          anyOf:
+          - type: string
+            format: date-time
+          - type: 'null'
+          title: Published At
+        last_success_at:
+          anyOf:
+          - type: string
+            format: date-time
+          - type: 'null'
+          title: Last Success At
+        age_hours:
+          anyOf:
+          - type: number
+          - type: 'null'
+          title: Age Hours
+        sla_hours:
+          type: number
+          title: Sla Hours
+        stale:
+          type: boolean
+          title: Stale
+        entries:
+          type: integer
+          title: Entries
+        last_error:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Last Error
+      type: object
+      required:
+      - list_id
+      - list_type
+      - version
+      - published_at
+      - last_success_at
+      - age_hours
+      - sla_hours
+      - stale
+      - entries
+      - last_error
+      title: ListStatus
+    MatchedEntry:
+      properties:
+        list:
+          type: string
+          title: List
+        id:
+          type: string
+          title: Id
+        name:
+          type: string
+          title: Name
+        matched_name:
+          type: string
+          title: Matched Name
+        matched_name_kind:
+          type: string
+          title: Matched Name Kind
+        list_type:
+          type: string
+          title: List Type
+        entry_type:
+          type: string
+          title: Entry Type
+        programs:
+          items:
+            type: string
+          type: array
+          title: Programs
+      type: object
+      required:
+      - list
+      - id
+      - name
+      - matched_name
+      - matched_name_kind
+      - list_type
+      - entry_type
+      title: MatchedEntry
+    ParseIssue:
+      properties:
+        code:
+          type: string
+          title: Code
+        message:
+          type: string
+          title: Message
+        path:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Path
+        severity:
+          type: string
+          title: Severity
+      type: object
+      required:
+      - code
+      - message
+      - severity
+      title: ParseIssue
+    ScreeningResult:
+      properties:
+        screening_id:
+          type: string
+          title: Screening Id
+        tenant_id:
+          type: string
+          title: Tenant Id
+        decision:
+          $ref: '#/components/schemas/Decision'
+        reason_codes:
+          items:
+            type: string
+          type: array
+          title: Reason Codes
+        risk_score:
+          anyOf:
+          - type: number
+          - type: 'null'
+          title: Risk Score
+        message_type:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Message Type
+        message_id:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Message Id
+        uetr:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Uetr
+        input_hash:
+          type: string
+          title: Input Hash
+        hits:
+          items:
+            $ref: '#/components/schemas/Hit'
+          type: array
+          title: Hits
+        geo_findings:
+          items:
+            $ref: '#/components/schemas/GeoFinding'
+          type: array
+          title: Geo Findings
+        parse_issues:
+          items:
+            $ref: '#/components/schemas/ParseIssue'
+          type: array
+          title: Parse Issues
+        list_versions:
+          additionalProperties:
+            type: string
+          type: object
+          title: List Versions
+        stale_lists:
+          items:
+            type: string
+          type: array
+          title: Stale Lists
+        model_version:
+          type: string
+          title: Model Version
+          default: deterministic-v1
+        rule_set_version:
+          type: string
+          title: Rule Set Version
+        config_version:
+          type: string
+          title: Config Version
+        cpm_version:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Cpm Version
+        engine_version:
+          type: string
+          title: Engine Version
+        stateless:
+          type: boolean
+          title: Stateless
+        summary:
+          type: string
+          title: Summary
+          default: ''
+        created_at:
+          type: string
+          format: date-time
+          title: Created At
+        latency_ms:
+          anyOf:
+          - type: number
+          - type: 'null'
+          title: Latency Ms
+        idempotent_replay:
+          type: boolean
+          title: Idempotent Replay
+          default: false
+      type: object
+      required:
+      - screening_id
+      - tenant_id
+      - decision
+      - reason_codes
+      - risk_score
+      - message_type
+      - input_hash
+      - list_versions
+      - rule_set_version
+      - config_version
+      - engine_version
+      - stateless
+      - created_at
+      title: ScreeningResult
+    ValidationError:
+      properties:
+        loc:
+          items:
+            anyOf:
+            - type: string
+            - type: integer
+          type: array
+          title: Location
+        msg:
+          type: string
+          title: Message
+        type:
+          type: string
+          title: Error Type
+        input:
+          title: Input
+        ctx:
+          type: object
+          title: Context
+      type: object
+      required:
+      - loc
+      - msg
+      - type
+      title: ValidationError

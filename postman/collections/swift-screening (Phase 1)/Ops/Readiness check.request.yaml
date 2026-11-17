@@ -1,0 +1,14 @@
+$kind: http-request
+url: "{{baseUrl}}/readyz"
+method: GET
+auth:
+  type: noauth
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test('ready (lists loaded, DB up)', () => {
+        pm.response.to.have.status(200);
+        pm.expect(pm.response.json().ready).to.be.true;
+      });
+    language: text/javascript
+order: 2000

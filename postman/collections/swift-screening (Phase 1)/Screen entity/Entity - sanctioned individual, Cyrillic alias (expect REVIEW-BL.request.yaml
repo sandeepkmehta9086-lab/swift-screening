@@ -1,0 +1,23 @@
+$kind: http-request
+name: Entity - sanctioned individual, Cyrillic alias (expect REVIEW/BLOCK)
+url: "{{baseUrl}}/v1/screen/entity"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "name": "Владимир Сергеевич Корнилов",
+      "country": "RU",
+      "date_of_birth": "1964-09-02",
+      "entity_type": "individual"
+    }
+scripts:
+  - type: afterResponse
+    code: |-
+      const r = pm.response.json();
+      pm.test('200', () => pm.response.to.have.status(200));
+      pm.test('not PASS', () => pm.expect(r.decision).to.be.oneOf(['REVIEW', 'BLOCK']));
+    language: text/javascript
+order: 1000

@@ -1,0 +1,30 @@
+# Local deployment: API + PostgreSQL. Fixture (fictional) lists are loaded on start.
+# Load real lists with:  docker compose exec api swift-screening lists load --format ofac
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: screening
+      POSTGRES_PASSWORD: screening   # local demo only - change for any shared environment
+      POSTGRES_DB: screening
+    volumes: [pgdata:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U screening"]
+      interval: 5s
+      retries: 10
+
+  api:
+    build: .
+    depends_on:
+      db: {condition: service_healthy}
+    environment:
+      SWIFT_SCREENING_DATABASE_URL: postgresql+psycopg://screening:screening@db:5432/screening
+      SWIFT_SCREENING_LIST_STORE: /app/data/lists
+      SWIFT_SCREENING_CONFIG: /app/config/tenants.example.yaml
+    command: sh -c "swift-screening lists load-fixtures && swift-screening serve --host 0.0.0.0 --port 8080"
+    ports: ["${SWIFT_SCREENING_PORT:-8080}:8080"]   # host port configurable
+    volumes: [lists:/app/data]
+
+volumes:
+  pgdata:
+  lists:

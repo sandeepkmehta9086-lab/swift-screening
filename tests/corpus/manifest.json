@@ -1,0 +1,1002 @@
+{
+ "mt103/invalid/000-missing-20.txt": {
+  "expect": "MISSING_MANDATORY_FIELD",
+  "mutation": "missing-20"
+ },
+ "mt103/invalid/001-missing-20.txt": {
+  "expect": "MISSING_MANDATORY_FIELD",
+  "mutation": "missing-20"
+ },
+ "mt103/invalid/002-missing-20.txt": {
+  "expect": "MISSING_MANDATORY_FIELD",
+  "mutation": "missing-20"
+ },
+ "mt103/invalid/003-missing-20.txt": {
+  "expect": "MISSING_MANDATORY_FIELD",
+  "mutation": "missing-20"
+ },
+ "mt103/invalid/004-missing-20.txt": {
+  "expect": "MISSING_MANDATORY_FIELD",
+  "mutation": "missing-20"
+ },
+ "mt103/invalid/005-missing-32A.txt": {
+  "expect": "MISSING_MANDATORY_FIELD",
+  "mutation": "missing-32A"
+ },
+ "mt103/invalid/006-missing-32A.txt": {
+  "expect": "MISSING_MANDATORY_FIELD",
+  "mutation": "missing-32A"
+ },
+ "mt103/invalid/007-missing-32A.txt": {
+  "expect": "MISSING_MANDATORY_FIELD",
+  "mutation": "missing-32A"
+ },
+ "mt103/invalid/008-missing-32A.txt": {
+  "expect": "MISSING_MANDATORY_FIELD",
+  "mutation": "missing-32A"
+ },
+ "mt103/invalid/009-missing-32A.txt": {
+  "expect": "MISSING_MANDATORY_FIELD",
+  "mutation": "missing-32A"
+ },
+ "mt103/invalid/010-bad-32A.txt": {
+  "expect": "INVALID_32A",
+  "mutation": "bad-32A"
+ },
+ "mt103/invalid/011-bad-32A.txt": {
+  "expect": "INVALID_32A",
+  "mutation": "bad-32A"
+ },
+ "mt103/invalid/012-bad-32A.txt": {
+  "expect": "INVALID_32A",
+  "mutation": "bad-32A"
+ },
+ "mt103/invalid/013-bad-32A.txt": {
+  "expect": "INVALID_32A",
+  "mutation": "bad-32A"
+ },
+ "mt103/invalid/014-bad-32A.txt": {
+  "expect": "INVALID_32A",
+  "mutation": "bad-32A"
+ },
+ "mt103/invalid/015-bad-option.txt": {
+  "expect": "INVALID_OPTION",
+  "mutation": "bad-option"
+ },
+ "mt103/invalid/016-bad-option.txt": {
+  "expect": "INVALID_OPTION",
+  "mutation": "bad-option"
+ },
+ "mt103/invalid/017-bad-option.txt": {
+  "expect": "INVALID_OPTION",
+  "mutation": "bad-option"
+ },
+ "mt103/invalid/018-bad-option.txt": {
+  "expect": "INVALID_OPTION",
+  "mutation": "bad-option"
+ },
+ "mt103/invalid/019-bad-option.txt": {
+  "expect": "INVALID_OPTION",
+  "mutation": "bad-option"
+ },
+ "mt103/invalid/020-bad-bic.txt": {
+  "expect": "INVALID_BIC",
+  "mutation": "bad-bic"
+ },
+ "mt103/invalid/021-bad-bic.txt": {
+  "expect": "INVALID_BIC",
+  "mutation": "bad-bic"
+ },
+ "mt103/invalid/022-bad-bic.txt": {
+  "expect": "INVALID_BIC",
+  "mutation": "bad-bic"
+ },
+ "mt103/invalid/023-bad-bic.txt": {
+  "expect": "INVALID_BIC",
+  "mutation": "bad-bic"
+ },
+ "mt103/invalid/024-bad-bic.txt": {
+  "expect": "INVALID_BIC",
+  "mutation": "bad-bic"
+ },
+ "mt103/invalid/025-bad-block1.txt": {
+  "expect": "INVALID_BLOCK1",
+  "mutation": "bad-block1"
+ },
+ "mt103/invalid/026-bad-block1.txt": {
+  "expect": "INVALID_BLOCK1",
+  "mutation": "bad-block1"
+ },
+ "mt103/invalid/027-bad-block1.txt": {
+  "expect": "INVALID_BLOCK1",
+  "mutation": "bad-block1"
+ },
+ "mt103/invalid/028-bad-block1.txt": {
+  "expect": "INVALID_BLOCK1",
+  "mutation": "bad-block1"
+ },
+ "mt103/invalid/029-bad-block1.txt": {
+  "expect": "INVALID_BLOCK1",
+  "mutation": "bad-block1"
+ },
+ "mt103/invalid/030-bad-block2.txt": {
+  "expect": "INVALID_BLOCK2",
+  "mutation": "bad-block2"
+ },
+ "mt103/invalid/031-bad-block2.txt": {
+  "expect": "INVALID_BLOCK2",
+  "mutation": "bad-block2"
+ },
+ "mt103/invalid/032-bad-block2.txt": {
+  "expect": "INVALID_BLOCK2",
+  "mutation": "bad-block2"
+ },
+ "mt103/invalid/033-bad-block2.txt": {
+  "expect": "INVALID_BLOCK2",
+  "mutation": "bad-block2"
+ },
+ "mt103/invalid/034-bad-block2.txt": {
+  "expect": "INVALID_BLOCK2",
+  "mutation": "bad-block2"
+ },
+ "mt103/invalid/035-no-headers.txt": {
+  "expect": "MISSING_HEADER_BLOCKS",
+  "mutation": "no-headers"
+ },
+ "mt103/invalid/036-no-headers.txt": {
+  "expect": "MISSING_HEADER_BLOCKS",
+  "mutation": "no-headers"
+ },
+ "mt103/invalid/037-no-headers.txt": {
+  "expect": "MISSING_HEADER_BLOCKS",
+  "mutation": "no-headers"
+ },
+ "mt103/invalid/038-no-headers.txt": {
+  "expect": "MISSING_HEADER_BLOCKS",
+  "mutation": "no-headers"
+ },
+ "mt103/invalid/039-no-headers.txt": {
+  "expect": "MISSING_HEADER_BLOCKS",
+  "mutation": "no-headers"
+ },
+ "mt103/invalid/040-unterminated-block4.txt": {
+  "expect": "PARSE_ERROR",
+  "mutation": "unterminated-block4"
+ },
+ "mt103/invalid/041-unterminated-block4.txt": {
+  "expect": "PARSE_ERROR",
+  "mutation": "unterminated-block4"
+ },
+ "mt103/invalid/042-unterminated-block4.txt": {
+  "expect": "PARSE_ERROR",
+  "mutation": "unterminated-block4"
+ },
+ "mt103/invalid/043-unterminated-block4.txt": {
+  "expect": "PARSE_ERROR",
+  "mutation": "unterminated-block4"
+ },
+ "mt103/invalid/044-unterminated-block4.txt": {
+  "expect": "PARSE_ERROR",
+  "mutation": "unterminated-block4"
+ },
+ "mt103/invalid/045-garbage.txt": {
+  "expect": "PARSE_ERROR",
+  "mutation": "garbage"
+ },
+ "mt103/invalid/046-garbage.txt": {
+  "expect": "PARSE_ERROR",
+  "mutation": "garbage"
+ },
+ "mt103/invalid/047-garbage.txt": {
+  "expect": "PARSE_ERROR",
+  "mutation": "garbage"
+ },
+ "mt103/invalid/048-garbage.txt": {
+  "expect": "PARSE_ERROR",
+  "mutation": "garbage"
+ },
+ "mt103/invalid/049-garbage.txt": {
+  "expect": "PARSE_ERROR",
+  "mutation": "garbage"
+ },
+ "mt202/invalid/000-missing-20.txt": {
+  "expect": "MISSING_MANDATORY_FIELD",
+  "mutation": "missing-20"
+ },
+ "mt202/invalid/001-missing-20.txt": {
+  "expect": "MISSING_MANDATORY_FIELD",
+  "mutation": "missing-20"
+ },
+ "mt202/invalid/002-missing-20.txt": {
+  "expect": "MISSING_MANDATORY_FIELD",
+  "mutation": "missing-20"
+ },
+ "mt202/invalid/003-missing-20.txt": {
+  "expect": "MISSING_MANDATORY_FIELD",
+  "mutation": "missing-20"
+ },
+ "mt202/invalid/004-missing-20.txt": {
+  "expect": "MISSING_MANDATORY_FIELD",
+  "mutation": "missing-20"
+ },
+ "mt202/invalid/005-missing-32A.txt": {
+  "expect": "MISSING_MANDATORY_FIELD",
+  "mutation": "missing-32A"
+ },
+ "mt202/invalid/006-missing-32A.txt": {
+  "expect": "MISSING_MANDATORY_FIELD",
+  "mutation": "missing-32A"
+ },
+ "mt202/invalid/007-missing-32A.txt": {
+  "expect": "MISSING_MANDATORY_FIELD",
+  "mutation": "missing-32A"
+ },
+ "mt202/invalid/008-missing-32A.txt": {
+  "expect": "MISSING_MANDATORY_FIELD",
+  "mutation": "missing-32A"
+ },
+ "mt202/invalid/009-missing-32A.txt": {
+  "expect": "MISSING_MANDATORY_FIELD",
+  "mutation": "missing-32A"
+ },
+ "mt202/invalid/010-bad-32A.txt": {
+  "expect": "INVALID_32A",
+  "mutation": "bad-32A"
+ },
+ "mt202/invalid/011-bad-32A.txt": {
+  "expect": "INVALID_32A",
+  "mutation": "bad-32A"
+ },
+ "mt202/invalid/012-bad-32A.txt": {
+  "expect": "INVALID_32A",
+  "mutation": "bad-32A"
+ },
+ "mt202/invalid/013-bad-32A.txt": {
+  "expect": "INVALID_32A",
+  "mutation": "bad-32A"
+ },
+ "mt202/invalid/014-bad-32A.txt": {
+  "expect": "INVALID_32A",
+  "mutation": "bad-32A"
+ },
+ "mt202/invalid/015-bad-option.txt": {
+  "expect": "INVALID_OPTION",
+  "mutation": "bad-option"
+ },
+ "mt202/invalid/016-bad-option.txt": {
+  "expect": "INVALID_OPTION",
+  "mutation": "bad-option"
+ },
+ "mt202/invalid/017-bad-option.txt": {
+  "expect": "INVALID_OPTION",
+  "mutation": "bad-option"
+ },
+ "mt202/invalid/018-bad-option.txt": {
+  "expect": "INVALID_OPTION",
+  "mutation": "bad-option"
+ },
+ "mt202/invalid/019-bad-option.txt": {
+  "expect": "INVALID_OPTION",
+  "mutation": "bad-option"
+ },
+ "mt202/invalid/020-bad-bic.txt": {
+  "expect": "INVALID_BIC",
+  "mutation": "bad-bic"
+ },
+ "mt202/invalid/021-bad-bic.txt": {
+  "expect": "INVALID_BIC",
+  "mutation": "bad-bic"
+ },
+ "mt202/invalid/022-bad-bic.txt": {
+  "expect": "INVALID_BIC",
+  "mutation": "bad-bic"
+ },
+ "mt202/invalid/023-bad-bic.txt": {
+  "expect": "INVALID_BIC",
+  "mutation": "bad-bic"
+ },
+ "mt202/invalid/024-bad-bic.txt": {
+  "expect": "INVALID_BIC",
+  "mutation": "bad-bic"
+ },
+ "mt202/invalid/025-bad-block1.txt": {
+  "expect": "INVALID_BLOCK1",
+  "mutation": "bad-block1"
+ },
+ "mt202/invalid/026-bad-block1.txt": {
+  "expect": "INVALID_BLOCK1",
+  "mutation": "bad-block1"
+ },
+ "mt202/invalid/027-bad-block1.txt": {
+  "expect": "INVALID_BLOCK1",
+  "mutation": "bad-block1"
+ },
+ "mt202/invalid/028-bad-block1.txt": {
+  "expect": "INVALID_BLOCK1",
+  "mutation": "bad-block1"
+ },
+ "mt202/invalid/029-bad-block1.txt": {
+  "expect": "INVALID_BLOCK1",
+  "mutation": "bad-block1"
+ },
+ "mt202/invalid/030-bad-block2.txt": {
+  "expect": "INVALID_BLOCK2",
+  "mutation": "bad-block2"
+ },
+ "mt202/invalid/031-bad-block2.txt": {
+  "expect": "INVALID_BLOCK2",
+  "mutation": "bad-block2"
+ },
+ "mt202/invalid/032-bad-block2.txt": {
+  "expect": "INVALID_BLOCK2",
+  "mutation": "bad-block2"
+ },
+ "mt202/invalid/033-bad-block2.txt": {
+  "expect": "INVALID_BLOCK2",
+  "mutation": "bad-block2"
+ },
+ "mt202/invalid/034-bad-block2.txt": {
+  "expect": "INVALID_BLOCK2",
+  "mutation": "bad-block2"
+ },
+ "mt202/invalid/035-no-headers.txt": {
+  "expect": "MISSING_HEADER_BLOCKS",
+  "mutation": "no-headers"
+ },
+ "mt202/invalid/036-no-headers.txt": {
+  "expect": "MISSING_HEADER_BLOCKS",
+  "mutation": "no-headers"
+ },
+ "mt202/invalid/037-no-headers.txt": {
+  "expect": "MISSING_HEADER_BLOCKS",
+  "mutation": "no-headers"
+ },
+ "mt202/invalid/038-no-headers.txt": {
+  "expect": "MISSING_HEADER_BLOCKS",
+  "mutation": "no-headers"
+ },
+ "mt202/invalid/039-no-headers.txt": {
+  "expect": "MISSING_HEADER_BLOCKS",
+  "mutation": "no-headers"
+ },
+ "mt202/invalid/040-unterminated-block4.txt": {
+  "expect": "PARSE_ERROR",
+  "mutation": "unterminated-block4"
+ },
+ "mt202/invalid/041-unterminated-block4.txt": {
+  "expect": "PARSE_ERROR",
+  "mutation": "unterminated-block4"
+ },
+ "mt202/invalid/042-unterminated-block4.txt": {
+  "expect": "PARSE_ERROR",
+  "mutation": "unterminated-block4"
+ },
+ "mt202/invalid/043-unterminated-block4.txt": {
+  "expect": "PARSE_ERROR",
+  "mutation": "unterminated-block4"
+ },
+ "mt202/invalid/044-unterminated-block4.txt": {
+  "expect": "PARSE_ERROR",
+  "mutation": "unterminated-block4"
+ },
+ "mt202/invalid/045-garbage.txt": {
+  "expect": "PARSE_ERROR",
+  "mutation": "garbage"
+ },
+ "mt202/invalid/046-garbage.txt": {
+  "expect": "PARSE_ERROR",
+  "mutation": "garbage"
+ },
+ "mt202/invalid/047-garbage.txt": {
+  "expect": "PARSE_ERROR",
+  "mutation": "garbage"
+ },
+ "mt202/invalid/048-garbage.txt": {
+  "expect": "PARSE_ERROR",
+  "mutation": "garbage"
+ },
+ "mt202/invalid/049-garbage.txt": {
+  "expect": "PARSE_ERROR",
+  "mutation": "garbage"
+ },
+ "mt202cov/invalid/000-missing-20.txt": {
+  "expect": "MISSING_MANDATORY_FIELD",
+  "mutation": "missing-20"
+ },
+ "mt202cov/invalid/001-missing-20.txt": {
+  "expect": "MISSING_MANDATORY_FIELD",
+  "mutation": "missing-20"
+ },
+ "mt202cov/invalid/002-missing-20.txt": {
+  "expect": "MISSING_MANDATORY_FIELD",
+  "mutation": "missing-20"
+ },
+ "mt202cov/invalid/003-missing-20.txt": {
+  "expect": "MISSING_MANDATORY_FIELD",
+  "mutation": "missing-20"
+ },
+ "mt202cov/invalid/004-missing-20.txt": {
+  "expect": "MISSING_MANDATORY_FIELD",
+  "mutation": "missing-20"
+ },
+ "mt202cov/invalid/005-missing-32A.txt": {
+  "expect": "MISSING_MANDATORY_FIELD",
+  "mutation": "missing-32A"
+ },
+ "mt202cov/invalid/006-missing-32A.txt": {
+  "expect": "MISSING_MANDATORY_FIELD",
+  "mutation": "missing-32A"
+ },
+ "mt202cov/invalid/007-missing-32A.txt": {
+  "expect": "MISSING_MANDATORY_FIELD",
+  "mutation": "missing-32A"
+ },
+ "mt202cov/invalid/008-missing-32A.txt": {
+  "expect": "MISSING_MANDATORY_FIELD",
+  "mutation": "missing-32A"
+ },
+ "mt202cov/invalid/009-missing-32A.txt": {
+  "expect": "MISSING_MANDATORY_FIELD",
+  "mutation": "missing-32A"
+ },
+ "mt202cov/invalid/010-bad-32A.txt": {
+  "expect": "INVALID_32A",
+  "mutation": "bad-32A"
+ },
+ "mt202cov/invalid/011-bad-32A.txt": {
+  "expect": "INVALID_32A",
+  "mutation": "bad-32A"
+ },
+ "mt202cov/invalid/012-bad-32A.txt": {
+  "expect": "INVALID_32A",
+  "mutation": "bad-32A"
+ },
+ "mt202cov/invalid/013-bad-32A.txt": {
+  "expect": "INVALID_32A",
+  "mutation": "bad-32A"
+ },
+ "mt202cov/invalid/014-bad-32A.txt": {
+  "expect": "INVALID_32A",
+  "mutation": "bad-32A"
+ },
+ "mt202cov/invalid/015-bad-option.txt": {
+  "expect": "INVALID_OPTION",
+  "mutation": "bad-option"
+ },
+ "mt202cov/invalid/016-bad-option.txt": {
+  "expect": "INVALID_OPTION",
+  "mutation": "bad-option"
+ },
+ "mt202cov/invalid/017-bad-option.txt": {
+  "expect": "INVALID_OPTION",
+  "mutation": "bad-option"
+ },
+ "mt202cov/invalid/018-bad-option.txt": {
+  "expect": "INVALID_OPTION",
+  "mutation": "bad-option"
+ },
+ "mt202cov/invalid/019-bad-option.txt": {
+  "expect": "INVALID_OPTION",
+  "mutation": "bad-option"
+ },
+ "mt202cov/invalid/020-bad-bic.txt": {
+  "expect": "INVALID_BIC",
+  "mutation": "bad-bic"
+ },
+ "mt202cov/invalid/021-bad-bic.txt": {
+  "expect": "INVALID_BIC",
+  "mutation": "bad-bic"
+ },
+ "mt202cov/invalid/022-bad-bic.txt": {
+  "expect": "INVALID_BIC",
+  "mutation": "bad-bic"
+ },
+ "mt202cov/invalid/023-bad-bic.txt": {
+  "expect": "INVALID_BIC",
+  "mutation": "bad-bic"
+ },
+ "mt202cov/invalid/024-bad-bic.txt": {
+  "expect": "INVALID_BIC",
+  "mutation": "bad-bic"
+ },
+ "mt202cov/invalid/025-bad-block1.txt": {
+  "expect": "INVALID_BLOCK1",
+  "mutation": "bad-block1"
+ },
+ "mt202cov/invalid/026-bad-block1.txt": {
+  "expect": "INVALID_BLOCK1",
+  "mutation": "bad-block1"
+ },
+ "mt202cov/invalid/027-bad-block1.txt": {
+  "expect": "INVALID_BLOCK1",
+  "mutation": "bad-block1"
+ },
+ "mt202cov/invalid/028-bad-block1.txt": {
+  "expect": "INVALID_BLOCK1",
+  "mutation": "bad-block1"
+ },
+ "mt202cov/invalid/029-bad-block1.txt": {
+  "expect": "INVALID_BLOCK1",
+  "mutation": "bad-block1"
+ },
+ "mt202cov/invalid/030-bad-block2.txt": {
+  "expect": "INVALID_BLOCK2",
+  "mutation": "bad-block2"
+ },
+ "mt202cov/invalid/031-bad-block2.txt": {
+  "expect": "INVALID_BLOCK2",
+  "mutation": "bad-block2"
+ },
+ "mt202cov/invalid/032-bad-block2.txt": {
+  "expect": "INVALID_BLOCK2",
+  "mutation": "bad-block2"
+ },
+ "mt202cov/invalid/033-bad-block2.txt": {
+  "expect": "INVALID_BLOCK2",
+  "mutation": "bad-block2"
+ },
+ "mt202cov/invalid/034-bad-block2.txt": {
+  "expect": "INVALID_BLOCK2",
+  "mutation": "bad-block2"
+ },
+ "mt202cov/invalid/035-no-headers.txt": {
+  "expect": "MISSING_HEADER_BLOCKS",
+  "mutation": "no-headers"
+ },
+ "mt202cov/invalid/036-no-headers.txt": {
+  "expect": "MISSING_HEADER_BLOCKS",
+  "mutation": "no-headers"
+ },
+ "mt202cov/invalid/037-no-headers.txt": {
+  "expect": "MISSING_HEADER_BLOCKS",
+  "mutation": "no-headers"
+ },
+ "mt202cov/invalid/038-no-headers.txt": {
+  "expect": "MISSING_HEADER_BLOCKS",
+  "mutation": "no-headers"
+ },
+ "mt202cov/invalid/039-no-headers.txt": {
+  "expect": "MISSING_HEADER_BLOCKS",
+  "mutation": "no-headers"
+ },
+ "mt202cov/invalid/040-unterminated-block4.txt": {
+  "expect": "PARSE_ERROR",
+  "mutation": "unterminated-block4"
+ },
+ "mt202cov/invalid/041-unterminated-block4.txt": {
+  "expect": "PARSE_ERROR",
+  "mutation": "unterminated-block4"
+ },
+ "mt202cov/invalid/042-unterminated-block4.txt": {
+  "expect": "PARSE_ERROR",
+  "mutation": "unterminated-block4"
+ },
+ "mt202cov/invalid/043-unterminated-block4.txt": {
+  "expect": "PARSE_ERROR",
+  "mutation": "unterminated-block4"
+ },
+ "mt202cov/invalid/044-unterminated-block4.txt": {
+  "expect": "PARSE_ERROR",
+  "mutation": "unterminated-block4"
+ },
+ "mt202cov/invalid/045-garbage.txt": {
+  "expect": "PARSE_ERROR",
+  "mutation": "garbage"
+ },
+ "mt202cov/invalid/046-garbage.txt": {
+  "expect": "PARSE_ERROR",
+  "mutation": "garbage"
+ },
+ "mt202cov/invalid/047-garbage.txt": {
+  "expect": "PARSE_ERROR",
+  "mutation": "garbage"
+ },
+ "mt202cov/invalid/048-garbage.txt": {
+  "expect": "PARSE_ERROR",
+  "mutation": "garbage"
+ },
+ "mt202cov/invalid/049-garbage.txt": {
+  "expect": "PARSE_ERROR",
+  "mutation": "garbage"
+ },
+ "pacs008/invalid/000-drop-dbtr.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "drop-dbtr"
+ },
+ "pacs008/invalid/001-drop-dbtr.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "drop-dbtr"
+ },
+ "pacs008/invalid/002-drop-dbtr.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "drop-dbtr"
+ },
+ "pacs008/invalid/003-drop-dbtr.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "drop-dbtr"
+ },
+ "pacs008/invalid/004-drop-dbtr.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "drop-dbtr"
+ },
+ "pacs008/invalid/005-drop-cdtr.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "drop-cdtr"
+ },
+ "pacs008/invalid/006-drop-cdtr.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "drop-cdtr"
+ },
+ "pacs008/invalid/007-drop-cdtr.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "drop-cdtr"
+ },
+ "pacs008/invalid/008-drop-cdtr.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "drop-cdtr"
+ },
+ "pacs008/invalid/009-drop-cdtr.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "drop-cdtr"
+ },
+ "pacs008/invalid/010-drop-amount.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "drop-amount"
+ },
+ "pacs008/invalid/011-drop-amount.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "drop-amount"
+ },
+ "pacs008/invalid/012-drop-amount.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "drop-amount"
+ },
+ "pacs008/invalid/013-drop-amount.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "drop-amount"
+ },
+ "pacs008/invalid/014-drop-amount.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "drop-amount"
+ },
+ "pacs008/invalid/015-bad-currency.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "bad-currency"
+ },
+ "pacs008/invalid/016-bad-currency.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "bad-currency"
+ },
+ "pacs008/invalid/017-bad-currency.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "bad-currency"
+ },
+ "pacs008/invalid/018-bad-currency.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "bad-currency"
+ },
+ "pacs008/invalid/019-bad-currency.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "bad-currency"
+ },
+ "pacs008/invalid/020-bad-amount.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "bad-amount"
+ },
+ "pacs008/invalid/021-bad-amount.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "bad-amount"
+ },
+ "pacs008/invalid/022-bad-amount.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "bad-amount"
+ },
+ "pacs008/invalid/023-bad-amount.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "bad-amount"
+ },
+ "pacs008/invalid/024-bad-amount.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "bad-amount"
+ },
+ "pacs008/invalid/025-no-msgid.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "no-msgid"
+ },
+ "pacs008/invalid/026-no-msgid.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "no-msgid"
+ },
+ "pacs008/invalid/027-no-msgid.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "no-msgid"
+ },
+ "pacs008/invalid/028-no-msgid.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "no-msgid"
+ },
+ "pacs008/invalid/029-no-msgid.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "no-msgid"
+ },
+ "pacs008/invalid/030-bad-bic.xml": {
+  "expect": "INVALID_BIC",
+  "mutation": "bad-bic"
+ },
+ "pacs008/invalid/031-bad-bic.xml": {
+  "expect": "INVALID_BIC",
+  "mutation": "bad-bic"
+ },
+ "pacs008/invalid/032-bad-bic.xml": {
+  "expect": "INVALID_BIC",
+  "mutation": "bad-bic"
+ },
+ "pacs008/invalid/033-bad-bic.xml": {
+  "expect": "INVALID_BIC",
+  "mutation": "bad-bic"
+ },
+ "pacs008/invalid/034-bad-bic.xml": {
+  "expect": "INVALID_BIC",
+  "mutation": "bad-bic"
+ },
+ "pacs008/invalid/035-doctype.xml": {
+  "expect": "PARSE_ERROR",
+  "mutation": "doctype"
+ },
+ "pacs008/invalid/036-doctype.xml": {
+  "expect": "PARSE_ERROR",
+  "mutation": "doctype"
+ },
+ "pacs008/invalid/037-doctype.xml": {
+  "expect": "PARSE_ERROR",
+  "mutation": "doctype"
+ },
+ "pacs008/invalid/038-doctype.xml": {
+  "expect": "PARSE_ERROR",
+  "mutation": "doctype"
+ },
+ "pacs008/invalid/039-doctype.xml": {
+  "expect": "PARSE_ERROR",
+  "mutation": "doctype"
+ },
+ "pacs008/invalid/040-malformed.xml": {
+  "expect": "PARSE_ERROR",
+  "mutation": "malformed"
+ },
+ "pacs008/invalid/041-malformed.xml": {
+  "expect": "PARSE_ERROR",
+  "mutation": "malformed"
+ },
+ "pacs008/invalid/042-malformed.xml": {
+  "expect": "PARSE_ERROR",
+  "mutation": "malformed"
+ },
+ "pacs008/invalid/043-malformed.xml": {
+  "expect": "PARSE_ERROR",
+  "mutation": "malformed"
+ },
+ "pacs008/invalid/044-malformed.xml": {
+  "expect": "PARSE_ERROR",
+  "mutation": "malformed"
+ },
+ "pacs008/invalid/045-wrong-namespace.xml": {
+  "expect": "PARSE_ERROR",
+  "mutation": "wrong-namespace"
+ },
+ "pacs008/invalid/046-wrong-namespace.xml": {
+  "expect": "PARSE_ERROR",
+  "mutation": "wrong-namespace"
+ },
+ "pacs008/invalid/047-wrong-namespace.xml": {
+  "expect": "PARSE_ERROR",
+  "mutation": "wrong-namespace"
+ },
+ "pacs008/invalid/048-wrong-namespace.xml": {
+  "expect": "PARSE_ERROR",
+  "mutation": "wrong-namespace"
+ },
+ "pacs008/invalid/049-wrong-namespace.xml": {
+  "expect": "PARSE_ERROR",
+  "mutation": "wrong-namespace"
+ },
+ "pacs009/invalid/000-drop-dbtr.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "drop-dbtr"
+ },
+ "pacs009/invalid/001-drop-dbtr.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "drop-dbtr"
+ },
+ "pacs009/invalid/002-drop-dbtr.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "drop-dbtr"
+ },
+ "pacs009/invalid/003-drop-dbtr.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "drop-dbtr"
+ },
+ "pacs009/invalid/004-drop-dbtr.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "drop-dbtr"
+ },
+ "pacs009/invalid/005-drop-cdtr.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "drop-cdtr"
+ },
+ "pacs009/invalid/006-drop-cdtr.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "drop-cdtr"
+ },
+ "pacs009/invalid/007-drop-cdtr.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "drop-cdtr"
+ },
+ "pacs009/invalid/008-drop-cdtr.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "drop-cdtr"
+ },
+ "pacs009/invalid/009-drop-cdtr.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "drop-cdtr"
+ },
+ "pacs009/invalid/010-drop-amount.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "drop-amount"
+ },
+ "pacs009/invalid/011-drop-amount.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "drop-amount"
+ },
+ "pacs009/invalid/012-drop-amount.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "drop-amount"
+ },
+ "pacs009/invalid/013-drop-amount.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "drop-amount"
+ },
+ "pacs009/invalid/014-drop-amount.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "drop-amount"
+ },
+ "pacs009/invalid/015-bad-currency.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "bad-currency"
+ },
+ "pacs009/invalid/016-bad-currency.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "bad-currency"
+ },
+ "pacs009/invalid/017-bad-currency.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "bad-currency"
+ },
+ "pacs009/invalid/018-bad-currency.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "bad-currency"
+ },
+ "pacs009/invalid/019-bad-currency.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "bad-currency"
+ },
+ "pacs009/invalid/020-bad-amount.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "bad-amount"
+ },
+ "pacs009/invalid/021-bad-amount.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "bad-amount"
+ },
+ "pacs009/invalid/022-bad-amount.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "bad-amount"
+ },
+ "pacs009/invalid/023-bad-amount.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "bad-amount"
+ },
+ "pacs009/invalid/024-bad-amount.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "bad-amount"
+ },
+ "pacs009/invalid/025-no-msgid.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "no-msgid"
+ },
+ "pacs009/invalid/026-no-msgid.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "no-msgid"
+ },
+ "pacs009/invalid/027-no-msgid.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "no-msgid"
+ },
+ "pacs009/invalid/028-no-msgid.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "no-msgid"
+ },
+ "pacs009/invalid/029-no-msgid.xml": {
+  "expect": "XSD_STRUCTURE",
+  "mutation": "no-msgid"
+ },
+ "pacs009/invalid/030-bad-bic.xml": {
+  "expect": "INVALID_BIC",
+  "mutation": "bad-bic"
+ },
+ "pacs009/invalid/031-bad-bic.xml": {
+  "expect": "INVALID_BIC",
+  "mutation": "bad-bic"
+ },
+ "pacs009/invalid/032-bad-bic.xml": {
+  "expect": "INVALID_BIC",
+  "mutation": "bad-bic"
+ },
+ "pacs009/invalid/033-bad-bic.xml": {
+  "expect": "INVALID_BIC",
+  "mutation": "bad-bic"
+ },
+ "pacs009/invalid/034-bad-bic.xml": {
+  "expect": "INVALID_BIC",
+  "mutation": "bad-bic"
+ },
+ "pacs009/invalid/035-doctype.xml": {
+  "expect": "PARSE_ERROR",
+  "mutation": "doctype"
+ },
+ "pacs009/invalid/036-doctype.xml": {
+  "expect": "PARSE_ERROR",
+  "mutation": "doctype"
+ },
+ "pacs009/invalid/037-doctype.xml": {
+  "expect": "PARSE_ERROR",
+  "mutation": "doctype"
+ },
+ "pacs009/invalid/038-doctype.xml": {
+  "expect": "PARSE_ERROR",
+  "mutation": "doctype"
+ },
+ "pacs009/invalid/039-doctype.xml": {
+  "expect": "PARSE_ERROR",
+  "mutation": "doctype"
+ },
+ "pacs009/invalid/040-malformed.xml": {
+  "expect": "PARSE_ERROR",
+  "mutation": "malformed"
+ },
+ "pacs009/invalid/041-malformed.xml": {
+  "expect": "PARSE_ERROR",
+  "mutation": "malformed"
+ },
+ "pacs009/invalid/042-malformed.xml": {
+  "expect": "PARSE_ERROR",
+  "mutation": "malformed"
+ },
+ "pacs009/invalid/043-malformed.xml": {
+  "expect": "PARSE_ERROR",
+  "mutation": "malformed"
+ },
+ "pacs009/invalid/044-malformed.xml": {
+  "expect": "PARSE_ERROR",
+  "mutation": "malformed"
+ },
+ "pacs009/invalid/045-wrong-namespace.xml": {
+  "expect": "PARSE_ERROR",
+  "mutation": "wrong-namespace"
+ },
+ "pacs009/invalid/046-wrong-namespace.xml": {
+  "expect": "PARSE_ERROR",
+  "mutation": "wrong-namespace"
+ },
+ "pacs009/invalid/047-wrong-namespace.xml": {
+  "expect": "PARSE_ERROR",
+  "mutation": "wrong-namespace"
+ },
+ "pacs009/invalid/048-wrong-namespace.xml": {
+  "expect": "PARSE_ERROR",
+  "mutation": "wrong-namespace"
+ },
+ "pacs009/invalid/049-wrong-namespace.xml": {
+  "expect": "PARSE_ERROR",
+  "mutation": "wrong-namespace"
+ }
+}

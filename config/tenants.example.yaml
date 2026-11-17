@@ -1,0 +1,43 @@
+# Example tenant configuration. Deployers own every value in this file, in particular the
+# thresholds and the embargo lists below, which are SAMPLES ONLY: sanctions programmes change,
+# verify the jurisdictions and regions that apply to you before use.
+#
+# API keys are stored as SHA-256 hashes:  swift-screening hash-key <key>
+
+defaults:
+  thresholds:
+    review: 0.82   # recall floor: anything at/above is a hit and goes to (at least) REVIEW
+    block: 0.98    # sanctions name matches at/above auto-BLOCK (set > 1.0 to disable)
+  identifier_hit_action: BLOCK
+  pep_action: REVIEW
+  internal_list_action: REVIEW
+  lists:
+    enabled: [FIXTURE_SANCTIONS, FIXTURE_PEP, FIXTURE_INTERNAL]
+    required: [FIXTURE_SANCTIONS]
+    default_sla_hours: 36
+    stale_action: hold
+  embargo_countries:
+    - {code: KP, action: BLOCK, names: ["north korea", "dprk", "democratic peoples republic of korea", "north korean"]}
+    - {code: IR, action: BLOCK, names: ["iran", "islamic republic of iran", "iranian"]}
+    - {code: CU, action: BLOCK, names: ["cuba", "cuban"]}
+    - {code: SY, action: BLOCK, names: ["syria", "syrian arab republic", "syrian"]}
+  embargo_regions:
+    - {id: UA-43-CRIMEA, country: UA, action: REVIEW, names: ["crimea", "krym", "krim", "sevastopol", "sebastopol", "simferopol", "kerch"]}
+    - {id: UA-14-DONETSK, country: UA, action: REVIEW, names: ["donetsk", "donetskaya", "dnr"]}
+    - {id: UA-09-LUHANSK, country: UA, action: REVIEW, names: ["luhansk", "lugansk", "lnr"]}
+  rate_limit_per_minute: 600
+  max_body_bytes: 1000000
+  screening_timeout_ms: 3000
+
+tenants:
+  - tenant_id: demo
+    name: Demo tenant
+    api_key_sha256:
+      - 090d1548c9d65f413a1a2c828a0bee3a7ae02d2137caf51e6029e6c3cb1f1fa4  # "demo-key-change-me"
+  - tenant_id: public
+    name: Public sandbox (stateless, bucketed)
+    stateless: true
+    public_mode: true
+    rate_limit_per_minute: 30
+    max_body_bytes: 100000
+    api_key_sha256: []

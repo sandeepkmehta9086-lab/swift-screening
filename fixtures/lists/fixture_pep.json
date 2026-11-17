@@ -1,0 +1,10 @@
+{
+  "_comment": "ENTIRELY FICTIONAL PEP test list.",
+  "list_id": "FIXTURE_PEP",
+  "list_type": "pep",
+  "published_at": "2026-11-12T00:00:00+00:00",
+  "entries": [
+    {"entry_id": "PEP-001", "entry_type": "individual", "name": "Maria Teresa Valcourt",
+     "remarks": "Fictional minister of finance of a fictional state"}
+  ]
+}

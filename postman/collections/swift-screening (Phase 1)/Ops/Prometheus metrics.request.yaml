@@ -1,0 +1,14 @@
+$kind: http-request
+url: "{{baseUrl}}/metrics"
+method: GET
+auth:
+  type: noauth
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test('200 text metrics', () => {
+        pm.response.to.have.status(200);
+        pm.expect(pm.response.text()).to.include('# HELP');
+      });
+    language: text/javascript
+order: 3000
